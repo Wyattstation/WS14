@@ -1,7 +1,7 @@
 - type: species
   id: SlimePerson
   name: species-name-slime
-  roundStart: true # Not sure why EE turned this off, supposedly bloat? What the fuck guys, come on.
+  roundStart: true # FUCKING WORKM
   prototype: MobSlimePerson
   sprites: MobSlimeSprites
   defaultSkinTone: "#b8b8b8"
