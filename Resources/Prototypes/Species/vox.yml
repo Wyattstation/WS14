@@ -1,7 +1,7 @@
 - type: species
   id: Vox
   name: species-name-vox
-  roundStart: true # Wyattstation - nitrogen birds are HERE!!!! (hopefully)
+    roundStart: true # Webedit. Please fucking work this time otherwise I'm gonna go insane
   prototype: MobVox
   sprites: MobVoxSprites
   markingLimits: MobVoxMarkingLimits
