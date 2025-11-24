@@ -4,7 +4,7 @@
         "x": 32,
         "y": 32
     },
-    "copyright": "Taken from tgstation, brigmedic locker is a resprited CMO locker by PuroSlavKing (Github), n2 sprites based on fire and emergency sprites, CJ and Clerk lockers edited by Timemaster99 (Discord)",
+    "copyright": "Taken from tgstation, brigmedic locker is a resprited CMO locker by PuroSlavKing (Github), n2 sprites based on fire and emergency sprites, genpop lockers by EmoGarbage404 (github), sci bio locker is a resprited bio viro locker by Alpha-Two (github), Evac lockers by EmoGarbage404 (GitHub)",
     "license": "CC-BY-SA-3.0",
     "states": [
         {
@@ -72,6 +72,15 @@
         },
         {
             "name": "bio_open"
+        },
+        {
+            "name": "bio_sci"
+        },
+        {
+            "name": "bio_sci_door"
+        },
+        {
+            "name": "bio_sci_open"
         },
         {
             "name": "bio_sec"
@@ -162,24 +171,6 @@
         },
         {
             "name": "chemical_door"
-        },
-        {
-            "name": "cj"
-        },
-        {
-            "name": "cj_door"
-        },
-        {
-            "name": "cj_open"
-        },
-        {
-            "name": "clerk"
-        },
-        {
-            "name": "clerk_door"
-        },
-        {
-            "name": "clerk_open"
         },
         {
             "name": "cmo"
@@ -315,6 +306,9 @@
             "name": "eng_weld_door"
         },
         {
+            "name": "eng_evac_door"
+        },
+        {
             "name": "fire"
         },
         {
@@ -346,6 +340,36 @@
         },
         {
             "name": "generic_icon"
+        },
+        {
+            "name": "genpop"
+        },
+        {
+            "name": "genpop_door_1"
+        },
+        {
+            "name": "genpop_door_2"
+        },
+        {
+            "name": "genpop_door_3"
+        },
+        {
+            "name": "genpop_door_4"
+        },
+        {
+            "name": "genpop_door_5"
+        },
+        {
+            "name": "genpop_door_6"
+        },
+        {
+            "name": "genpop_door_7"
+        },
+        {
+            "name": "genpop_door_8"
+        },
+        {
+            "name": "genpop_open"
         },
         {
             "name": "green_door"
@@ -521,33 +545,6 @@
             ]
         },
         {
-            "name": "bartender"
-        },
-        {
-            "name": "bartender_door"
-        },
-        {
-            "name": "bartender_open"
-        },
-        {
-            "name": "jan"
-        },
-        {
-            "name": "jan_door"
-        },
-        {
-            "name": "jan_open"
-        },
-        {
-            "name": "syndicate1"
-        },
-        {
-            "name": "syndicate1_door"
-        },
-        {
-            "name": "syndicate1_open"
-        },
-        {
             "name": "syndicate"
         },
         {
@@ -606,6 +603,27 @@
         },
         {
             "name": "representative_door"
+        },
+        {
+            "name": "ulika_door"
+        },
+        {
+            "name": "Blueshield"
+        },
+        {
+            "name": "Blueshield_door"
+        },
+        {
+            "name": "blueshield_open"
+        },
+        {
+            "name": "plasma"
+        },
+        {
+            "name": "plasma_door"
+        },
+        {
+            "name": "plasma_open"
         }
     ]
 }
