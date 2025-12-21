@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/ca674eff9d23e04357b7609ef7e07eadfc1a993f, modified by ps3moira (github)",
+    "copyright": "Taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/ca674eff9d23e04357b7609ef7e07eadfc1a993f, modified by ps3moira (github), sarin by JoeHammad",
     "size": {
         "x": 32,
         "y": 32
@@ -129,6 +129,21 @@
         },
         {
             "name": "tranquilizer"
+        },
+        {
+            "name": "sarin"
+        },
+        {
+            "name": "icon-sarin"
+        },
+        {
+            "name": "icon-incendiary"
+        },
+        {
+            "name": "icon-slug"
+        },
+        {
+            "name": "icon-lethal"
         }
     ]
 }
