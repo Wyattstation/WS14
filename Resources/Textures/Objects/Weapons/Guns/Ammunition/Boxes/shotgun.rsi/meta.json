@@ -129,6 +129,21 @@
         },
         {
             "name": "tranquilizer"
+        },
+        {
+            "name": "icon-sarin"
+        },
+        {
+            "name": "sarin"
+        },
+        {
+            "name": "icon-incendiary"
+        },
+        {
+            "name": "icon-slug"
+        },
+        {
+            "name": "icon-lethal"
         }
     ]
 }
