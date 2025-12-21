@@ -54,7 +54,7 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-alt-1
       map: ["enum.GunVisualLayers.Mag"]
-    - state: slug
+    - state: lethal
 
 # Incendiary
 - type: entity
@@ -90,7 +90,7 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-alt-1
       map: ["enum.GunVisualLayers.Mag"]
-    - state: uranium
+    - state: beanbag
 
 # Beanbag
 
