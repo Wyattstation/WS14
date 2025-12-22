@@ -2,12 +2,12 @@
   parent: [ SmokeGrenade , BaseSyndicateContraband ]
   id: PeaceGasGrenade
   name: peace gas grenade
-  description: Prevents people from harming each other and sleeps them, perfect for making your attackers helpless.
+  description: Prevents people from harming each other and sleeps them, spreads an okay area and lasts around 8 seconds.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
-    duration: 5 # needs to be tested
+    duration: 10 # needs to be tested
     spreadAmount: 15
     solution:
       reagents:
@@ -20,23 +20,23 @@
   parent: [ SmokeGrenade , BaseSyndicateContraband ]
   id: PolyacidGasGrenade
   name: polyacid gas grenade
-  description: Melts through people like butter, you will go critical if you are at the center of this.
+  description: Melts through people like butter, Stuff spreads VERY far and lasts around 5 seconds.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
-    duration: 10 # needs to be tested
-    spreadAmount: 5
+    duration: 7 # needs to be tested
+    spreadAmount: 40
     solution:
       reagents:
       - ReagentId: PolytrinicAcid
-        Quantity: 30
+        Quantity: 50
 
 - type: entity
   parent: [ SmokeGrenade , BaseSyndicateContraband ]
   id: OmnizineGasGrenade
   name: omnizine gas grenade
-  description: Heals teammates not wearing internals or a hardsuit, only use when you cannot save everybody.
+  description: Heals teammates not wearing internals or a hardsuit, doesnt spread very far and lasts around 8 seconds.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
