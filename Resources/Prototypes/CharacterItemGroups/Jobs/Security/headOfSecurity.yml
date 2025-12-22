@@ -23,8 +23,8 @@
   maxItems: 1
   id: LoadoutHeadOfSecurityWeapon
   items:
-    - type: loadout
-      id: LoadoutCommandHoSPulsePistol
+#    - type: loadout
+#      id: LoadoutCommandHoSPulsePistol
     - type: loadout
       id: LoadoutCommandHoSWt550
     - type: loadout
