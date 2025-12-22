@@ -142,8 +142,6 @@
     - type: loadout
       id: LoadoutSecurityArgentiNonLethal
     - type: loadout
-      id: LoadoutSecurityPistolEnergyRevolver
-    - type: loadout
       id: LoadoutBSOEnergyRevolver
     - type: loadout
       id: LoadoutBSORifleChester
