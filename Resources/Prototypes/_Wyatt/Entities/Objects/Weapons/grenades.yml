@@ -7,7 +7,7 @@
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
-    duration: 30 # needs to be tested
+    duration: 15 # needs to be tested
     spreadAmount: 15
     solution:
       reagents:
@@ -30,7 +30,7 @@
     solution:
       reagents:
       - ReagentId: PolytrinicAcid
-        Quantity: 30
+        Quantity: 20
 
 - type: entity
   parent: [ SmokeGrenade , BaseSyndicateContraband ]
@@ -41,9 +41,9 @@
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
-    duration: 5 # needs to be tested
+    duration: 10 # needs to be tested
     spreadAmount: 20
     solution:
       reagents:
       - ReagentId: Omnizine
-        Quantity: 30
+        Quantity: 15
