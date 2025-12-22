@@ -7,26 +7,26 @@
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
-    duration: 15 # needs to be tested
+    duration: 5 # needs to be tested
     spreadAmount: 15
     solution:
       reagents:
       - ReagentId: Pax
-        Quantity: 30
+        Quantity: 25
       - ReagentId: ChloralHydrate
-        Quantity: 20
+        Quantity: 25
 
 - type: entity
   parent: [ SmokeGrenade , BaseSyndicateContraband ]
   id: PolyacidGasGrenade
   name: polyacid gas grenade
-  description: Literally melts through people like butter, you will die if this enters your body.
+  description: Melts through people like butter, you will go critical if you are at the center of this.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
     duration: 5 # needs to be tested
-    spreadAmount: 15
+    spreadAmount: 5
     solution:
       reagents:
       - ReagentId: PolytrinicAcid
@@ -36,14 +36,14 @@
   parent: [ SmokeGrenade , BaseSyndicateContraband ]
   id: OmnizineGasGrenade
   name: omnizine gas grenade
-  description: Heals teammates not wearing internals or a hardsuit, only use when you cannot save everybody. Dont waste these.
+  description: Heals teammates not wearing internals or a hardsuit, only use when you cannot save everybody.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
     duration: 10 # needs to be tested
-    spreadAmount: 20
+    spreadAmount: 5
     solution:
       reagents:
       - ReagentId: Omnizine
-        Quantity: 15
+        Quantity: 10
