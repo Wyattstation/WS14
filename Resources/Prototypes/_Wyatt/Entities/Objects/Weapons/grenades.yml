@@ -1,0 +1,49 @@
+- type: entity
+  parent: [ SmokeGrenade , BaseSyndicateContraband ]
+  id: PeaceGasGrenade
+  name: peace gas grenade
+  description: Prevents people from harming each other and sleeps them, perfect for making your attackers helpless.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Grenades/tear_gas.rsi
+  - type: SmokeOnTrigger
+    duration: 30 # needs to be tested
+    spreadAmount: 30
+    solution:
+      reagents:
+      - ReagentId: Pax
+        Quantity: 30
+      - ReagentId: ChloralHydrate
+        Quantity: 20
+
+- type: entity
+  parent: [ SmokeGrenade , BaseSyndicateContraband ]
+  id: PolyacidGasGrenade
+  name: polyacid gas grenade
+  description: Literally melts through people like butter, you will die if this enters your body.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Grenades/tear_gas.rsi
+  - type: SmokeOnTrigger
+    duration: 10 # needs to be tested
+    spreadAmount: 20
+    solution:
+      reagents:
+      - ReagentId: PolytrinicAcid
+        Quantity: 30
+
+- type: entity
+  parent: [ SmokeGrenade , BaseSyndicateContraband ]
+  id: OmnizineGasGrenade
+  name: omnizine gas grenade
+  description: Heals teammates not wearing internals or a hardsuit, only use when you cannot save everybody. Dont waste these.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Grenades/tear_gas.rsi
+  - type: SmokeOnTrigger
+    duration: 15 # needs to be tested
+    spreadAmount: 20
+    solution:
+      reagents:
+      - ReagentId: Omnizine
+        Quantity: 30
