@@ -135,6 +135,9 @@
   cost: 0
   canBeHeirloom: true
   requirements:
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobCaptain
+      min: 1800000 # 500 hours
     - !type:CharacterItemGroupRequirement
       group: LoadoutCaptainWeapon
     - !type:CharacterJobRequirement
