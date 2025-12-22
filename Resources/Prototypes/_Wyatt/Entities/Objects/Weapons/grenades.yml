@@ -8,7 +8,7 @@
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
     duration: 30 # needs to be tested
-    spreadAmount: 30
+    spreadAmount: 15
     solution:
       reagents:
       - ReagentId: Pax
@@ -25,7 +25,7 @@
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
-    duration: 10 # needs to be tested
+    duration: 5 # needs to be tested
     spreadAmount: 20
     solution:
       reagents:
@@ -41,7 +41,7 @@
   - type: Sprite
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
-    duration: 15 # needs to be tested
+    duration: 5 # needs to be tested
     spreadAmount: 20
     solution:
       reagents:
