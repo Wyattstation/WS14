@@ -26,11 +26,11 @@
     sprite: Objects/Weapons/Grenades/tear_gas.rsi
   - type: SmokeOnTrigger
     duration: 5 # needs to be tested
-    spreadAmount: 20
+    spreadAmount: 15
     solution:
       reagents:
       - ReagentId: PolytrinicAcid
-        Quantity: 20
+        Quantity: 30
 
 - type: entity
   parent: [ SmokeGrenade , BaseSyndicateContraband ]
