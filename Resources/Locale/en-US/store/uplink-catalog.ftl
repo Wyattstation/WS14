@@ -29,27 +29,6 @@ uplink-gloves-north-star-desc = A pair of gloves that reduce your punching coold
 uplink-emp-flashlight-name = Emp Flashlight
 uplink-emp-flashlight-desc = A rechargeable device disguised as a flashlight designed to disrupt electronic systems. Useful for disrupting communications, security's energy weapons, and APCs when you're in a tight spot.
 
-uplink-combat-shotgun-name = Combat Shotgun
-uplink-combat-shotgun-desc = A beefy shotgun made to repell boarding parties, runs just as well in reverse. Uses 8 gauge shells.
-
-uplink-combat-shotgun-box-name = 8 Gauge Shell Box
-uplink-combat-shotgun-box-desc = Huge shells for a huge shotgun, shreads through flesh, bone, and some armors.
-
-uplink-combat-shotgun-box-sarin-name = 8 Gauge Sarin Shell Box
-uplink-combat-shotgun-box-sarin-desc = Huge shells for a huge shotgun, releases extremely toxic gas.
-
-uplink-combat-shotgun-box-emp-name = 8 Gauge EMP Shell Box
-uplink-combat-shotgun-box-emp-desc = Huge shells for a huge shotgun, disables anything electric.
-
-uplink-combat-shotgun-box-incendiary-name = 8 Gauge Incendiary Shell Box
-uplink-combat-shotgun-box-incendiary-desc = Huge shells for a huge shotgun, burns living creatures to ash.
-
-uplink-combat-shotgun-box-ensnaring-name = 8 Gauge Ensnaring Shell Box
-uplink-combat-shotgun-box-ensnaring-desc = Huge shells for a huge shotgun, stuns and slows living creatures.
-
-uplink-combat-shotgun-box-uranium-name = 8 Gauge Uranium Shell Box
-uplink-combat-shotgun-box-uranium-desc = Huge shells for a huge shotgun, goes through most armor with ease.
-
 # Explosives
 uplink-explosive-grenade-name = Explosive Grenade
 uplink-explosive-grenade-desc = A simplistic grenade with a 3.5 second long fuse that is geared towards injuring personnel. Causes minimal hull damage.
