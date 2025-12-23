@@ -158,6 +158,15 @@
   categories:
   - UplinkWeaponry
 
+- type: listing
+  id: UplinkCombatShotgun
+  name: uplink-combat-shotgun-name
+  description: uplink-combat-shotgun-desc
+  productEntity: WeaponShotgunCombat
+  cost:
+    Telecrystal: 80
+  categories:
+  - UplinkWeaponry
 # Wearables
 
 - type: listing
@@ -274,6 +283,71 @@
   categories:
   - UplinkAmmo
 
+- type: listing
+  id: UplinkCombatShotgunBox
+  name: uplink-combat-shotgun-box-name
+  description: uplink-combat-shotgun-box-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  productEntity: MagazineBoxShotgunHighCaliber
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkCombatShotgunBoxSarin
+  name: uplink-combat-shotgun-box-sarin-name
+  description: uplink-combat-shotgun-box-sarin-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  productEntity: MagazineBoxShotgunHighCaliberSarin
+  cost:
+    Telecrystal: 16
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkCombatShotgunBoxEMP
+  name: uplink-combat-shotgun-box-emp-name
+  description: uplink-combat-shotgun-box-emp-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  productEntity: MagazineBoxShotgunHighCaliberEMP
+  cost:
+    Telecrystal: 12
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkCombatShotgunBoxIncendiary
+  name: uplink-combat-shotgun-box-incendiary-name
+  description: uplink-combat-shotgun-box-incendiary-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  productEntity: MagazineBoxShotgunIncendiaryHighCaliber
+  cost:
+    Telecrystal: 12
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkCombatShotgunBoxEnsnaring
+  name: uplink-combat-shotgun-box-ensnaring-name
+  description: uplink-combat-shotgun-box-ensnaring-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  productEntity: MagazineBoxShotgunHighCaliberEnsnaring
+  cost:
+    Telecrystal: 12
+  categories:
+  - UplinkAmmo
+
+- type: listing
+  id: UplinkCombatShotgunBoxUranium
+  name: uplink-combat-shotgun-box-uranium-name
+  description: uplink-combat-shotgun-box-uranium-desc
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  productEntity: MagazineBoxShotgunUraniumHighCaliber
+  cost:
+    Telecrystal: 14
+  categories:
+  - UplinkAmmo
 # Misc
 
 - type: listing
