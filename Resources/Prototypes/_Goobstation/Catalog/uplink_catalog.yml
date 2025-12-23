@@ -298,7 +298,7 @@
   id: UplinkCombatShotgunBoxSarin
   name: uplink-combat-shotgun-box-sarin-name
   description: uplink-combat-shotgun-box-sarin-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: sarin }
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: icon-sarin }
   productEntity: MagazineBoxShotgunHighCaliberSarin
   cost:
     Telecrystal: 16
