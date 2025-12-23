@@ -287,7 +287,7 @@
   id: UplinkCombatShotgunBox
   name: uplink-combat-shotgun-box-name
   description: uplink-combat-shotgun-box-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: lethal }
   productEntity: MagazineBoxShotgunHighCaliber
   cost:
     Telecrystal: 10
@@ -298,7 +298,7 @@
   id: UplinkCombatShotgunBoxSarin
   name: uplink-combat-shotgun-box-sarin-name
   description: uplink-combat-shotgun-box-sarin-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: sarin }
   productEntity: MagazineBoxShotgunHighCaliberSarin
   cost:
     Telecrystal: 16
@@ -309,7 +309,7 @@
   id: UplinkCombatShotgunBoxEMP
   name: uplink-combat-shotgun-box-emp-name
   description: uplink-combat-shotgun-box-emp-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: incendiary }
   productEntity: MagazineBoxShotgunHighCaliberEMP
   cost:
     Telecrystal: 12
@@ -320,7 +320,7 @@
   id: UplinkCombatShotgunBoxIncendiary
   name: uplink-combat-shotgun-box-incendiary-name
   description: uplink-combat-shotgun-box-incendiary-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: incendiary }
   productEntity: MagazineBoxShotgunIncendiaryHighCaliber
   cost:
     Telecrystal: 12
@@ -331,7 +331,7 @@
   id: UplinkCombatShotgunBoxEnsnaring
   name: uplink-combat-shotgun-box-ensnaring-name
   description: uplink-combat-shotgun-box-ensnaring-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: incendiary }
   productEntity: MagazineBoxShotgunHighCaliberEnsnaring
   cost:
     Telecrystal: 12
@@ -342,7 +342,7 @@
   id: UplinkCombatShotgunBoxUranium
   name: uplink-combat-shotgun-box-uranium-name
   description: uplink-combat-shotgun-box-uranium-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/shotgun.rsi, state: uranium }
   productEntity: MagazineBoxShotgunUraniumHighCaliber
   cost:
     Telecrystal: 14
