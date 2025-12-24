@@ -290,7 +290,7 @@
 
 - type: entity
   parent: ClothingBackpackERTSecurity
-  id: ClothingBackpackSpecops
+  id: ClothingBackpackDeathSquad
   name: Special forces backpack
   description: A dark backpack that opens into a localized pocket of bluespace.
   components:
