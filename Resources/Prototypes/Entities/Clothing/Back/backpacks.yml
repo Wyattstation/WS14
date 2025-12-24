@@ -290,13 +290,14 @@
 
 - type: entity
   parent: ClothingBackpackERTSecurity
-  id: ClothingBackpackDeathSquad
-  name: death squad backpack
-  description: Holds the kit of CentComm's most feared agents.
+  id: ClothingBackpackSpecops
+  name: Special forces backpack
+  description: A dark backpack that opens into a localized pocket of bluespace.
   components:
   - type: Storage
+    maxItemSize: Ginormous
     grid:
-    - 0,0,7,6
+    - 0,0,19,9
 
 #Syndicate
 - type: entity
