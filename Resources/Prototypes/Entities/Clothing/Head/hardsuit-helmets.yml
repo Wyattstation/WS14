@@ -981,10 +981,10 @@
 
 #Deathsquad Hardsuit
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingHeadHardsuitBase ]
-  id: ClothingHeadHelmetHardsuitDeathsquad
-  name: deathsquad hardsuit helmet
-  description: A robust helmet for special operations.
+  parent: [ BaseCentcommContraband, ClothingHeadHardsuitBase, ShowSecurityIcons, ShowMedicalIcons, ShowPsionicsIcons ]
+  id: ClothingHeadHelmetHardsuitSpecops
+  name: Special forces helmet
+  description: A pitch black helmet with a purple visor, has built-in thermal scanners, night vison, and huds.
   components:
   - type: BreathMask
   - type: Sprite
@@ -1009,9 +1009,23 @@
     isEquipment: true
     color: "#98EEFB"
     lightRadius: 15
+  - type: NightVision
+    isEquipment: true
   - type: FlashImmunity # Goobstation
+  - type: EyeProtection
+    protectionTime: 99999
   - type: FlashSoundSuppression # Goobstation
     protectionRange: 0
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+    - Inorganic
+    - Silicon
+    - SiliconUnshielded
+  - type: ShowHungerIcons
+  - type: ShowThirstIcons
+  - type: SolutionScanner
+  - type: ShowSyndicateIcons
   - type: ClothingGrantComponent
     component:
     - type: Stealth
