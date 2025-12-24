@@ -1198,8 +1198,8 @@
     soundCollection:
       collection: FootstepHardsuitLight
       params:
-        volume: -12
-        maxDistance: 5
+        volume: -80
+        maxDistance: 0
         rolloffFactor: 1.2
   - type: GasTank
     outputPressure: 42.6
@@ -1230,7 +1230,7 @@
     component:
     - type: StealthOnMove
       passiveVisibilityRate: -0.9
-      movementVisibilityRate: 0.1
+      movementVisibilityRate: 0.3
   - type: StaminaDamageResistance
     coefficient: 0.1 # 90%
 
