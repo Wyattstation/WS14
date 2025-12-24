@@ -992,10 +992,10 @@
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/deathsquad.rsi
   - type: PressureProtection
-    highPressureMultiplier: 0.08
-    lowPressureMultiplier: 1000
+    highPressureMultiplier: 0.008
+    lowPressureMultiplier: 10000
   - type: FireProtection
-    reduction: 0.2
+    reduction: 0.1
   - type: Armor
     modifiers:
       coefficients:
@@ -1012,6 +1012,9 @@
   - type: FlashImmunity # Goobstation
   - type: FlashSoundSuppression # Goobstation
     protectionRange: 0
+  - type: ClothingGrantComponent
+    component:
+    - type: Stealth
 
 #MISC. HARDSUITS
 #Clown Hardsuit
