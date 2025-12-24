@@ -20,13 +20,13 @@
   - ERTPlasmamanGear # TODO: death squad envirosuit
   - GasTankSuitStorage
   equipment:
-    jumpsuit: ClothingUniformJumpsuitSpecops
-    back: ClothingBackpackSpecops
-    mask: ClothingMaskGasSpecops
+    jumpsuit: ClothingUniformJumpsuitDeathSquad
+    back: ClothingBackpackDeathSquad
+    mask: ClothingMaskGasDeathSquad
     eyes: ClothingEyesHudSecurity
     ears: ClothingHeadsetAltCentCom
     gloves: ClothingHandsGlovesSpecops
-    outerClothing: ClothingOuterHardsuitSpecops
+    outerClothing: ClothingOuterHardsuitDeathSquad
     shoes: ClothingShoesBootsMagAdv
     id: DeathsquadPDA
     pocket1: EnergyCutlassOverclocked
