@@ -457,7 +457,7 @@
   parent: ClothingMaskGasERT
   id: ClothingMaskGasDeathSquad
   name: Special forces gas mask
-  description: A unique gas mask for special force teams.
+  description: Red and black gas mask meant for combat. Looks kind of intimidating.
   components:
   - type: Sprite
     sprite: Clothing/Mask/squadron.rsi
