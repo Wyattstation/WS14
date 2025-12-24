@@ -982,7 +982,7 @@
 #Deathsquad Hardsuit
 - type: entity
   parent: [ BaseCentcommContraband, ClothingHeadHardsuitBase, ShowSecurityIcons, ShowMedicalIcons, ShowPsionicsIcons ]
-  id: ClothingHeadHelmetHardsuitSpecops
+  id: ClothingHeadHelmetHardsuitDeathSquad
   name: Special forces helmet
   description: A pitch black helmet with a purple visor, has built-in thermal scanners, night vison, and huds.
   components:
