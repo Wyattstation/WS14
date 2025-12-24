@@ -1193,7 +1193,7 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitDeathsquad
+    clothingPrototype: ClothingHeadHelmetHardsuitSpecops
   - type: EmitsSoundOnMove
     soundCollection:
       collection: FootstepHardsuitLight
