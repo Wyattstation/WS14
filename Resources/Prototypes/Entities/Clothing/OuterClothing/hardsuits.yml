@@ -1157,7 +1157,7 @@
 #Deathsquad
 - type: entity
   parent: [BaseCentcommContraband, ClothingOuterHardsuitBaseHeavy, BaseIntegratedMagboot]
-  id: ClothingOuterHardsuitDeathSquad
+  id: ClothingOuterHardsuitDeathsquad
   name: Special forces hardsuit
   description: A black and red hardsuit with nothing but the Nanotrasen logo printed on the back. Even though it seems to be made of some kind of plastitanium alloy and is quite thick in comparison to standard Nanotrasen suits, it still feels ridiculously light.
   components:
