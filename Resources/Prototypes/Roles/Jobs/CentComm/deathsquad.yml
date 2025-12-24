@@ -20,29 +20,36 @@
   - ERTPlasmamanGear # TODO: death squad envirosuit
   - GasTankSuitStorage
   equipment:
-    jumpsuit: ClothingUniformJumpsuitDeathSquad
-    back: ClothingBackpackDeathSquad
-    mask: ClothingMaskGasDeathSquad
+    jumpsuit: ClothingUniformJumpsuitSpecops
+    back: ClothingBackpackSpecops
+    mask: ClothingMaskGasSpecops
     eyes: ClothingEyesHudSecurity
     ears: ClothingHeadsetAltCentCom
-    gloves: ClothingHandsGlovesCombat
-    outerClothing: ClothingOuterHardsuitDeathsquad
+    gloves: ClothingHandsGlovesSpecops
+    outerClothing: ClothingOuterHardsuitSpecops
     shoes: ClothingShoesBootsMagAdv
     id: DeathsquadPDA
-    pocket1: EnergySword
-    pocket2: EnergyShield
+    pocket1: EnergyCutlassOverclocked
+    pocket2: WeaponPistolAnaconda
     belt: ClothingBeltMilitaryWebbingMedFilled
   storage:
     back:
     - WeaponPulsePistol
-    - WeaponRevolverMateba
-    - SpeedLoaderMagnumAP
-    - SpeedLoaderMagnumAP
-    - BoxFlashbang
-    - ToolDebug # spanish army knife
+    - PolyacidGasGrenade
+    - PolyacidGasGrenade
+    - PolyacidGasGrenade
+    - PolyacidGasGrenade
+    - C4
+    - C4
+    - C4
+    - C4
+    - JawsOfLife
     - WelderExperimental
-    - Hypospray
-    - DeathAcidifierImplanter # crew will try to steal their amazing hardsuits
+    - BlueShieldShield
+    - PortableRecharger
+    - HandTeleporterAdmeme
+    - BluespaceLifelineImplanter
     - FreedomImplanter
+    - ScramImplanter
   inhand:
   - WeaponPulseRifle
