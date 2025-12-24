@@ -1,6 +1,6 @@
 # Operations
 - type: rcd
-  id: Invalid   # Hidden prototype - do not add to RCDs
+  id: Invalid   # Hidden prototype - do not add to RCD
   mode: Invalid
   
 - type: rcd
