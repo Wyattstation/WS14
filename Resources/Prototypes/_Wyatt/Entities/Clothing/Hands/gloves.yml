@@ -1,0 +1,27 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesSpecops
+  name: Special forces gloves
+  description: Highly advanced hydraulic gloves that leave zero trace, they cause extreme radiation via unstable polonium contained within a bluespace pocket thats exposed on contact.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/powerglove.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/powerglove.rsi
+  - type: FingerprintMask
+  - type: Insulated
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
+  - type: Thieving
+    stripTimeReduction: 1.5
+  - type: MeleeWeapon
+    autoAttack: true
+    attackRate: 0.25
+    heavyStaminaCost: 0
+    heavyDamageBaseModifier: 1.05
+    maxTargets: 1
+    damage:
+      types:
+        Radiation: 45
+    animation: WeaponArcFist
+    mustBeEquippedToUse: true
