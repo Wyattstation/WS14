@@ -64,17 +64,20 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    minAngle: 2
-    maxAngle: 6
-    angleIncrease: 2
-    angleDecay: 8
-    fireRate: 8
+    minAngle: 0
+    maxAngle: 0
+    angleIncrease: 0
+    angleDecay: 0
+    fireRate: 10
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
     - FullAuto
     soundGunshot:
-      path: /Audio/DeltaV/Weapons/Guns/Gunshots/jackdaw.ogg
+      path: /Audio/_EE/Weapons/Guns/Gunshots/fpa-90-suppressed-gunshot.ogg
+      params:
+        volume: -8
+        maxDistance: 1
   - type: ChamberMagazineAmmoProvider
   - type: ItemSlots
     slots:
