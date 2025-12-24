@@ -456,8 +456,8 @@
 - type: entity
   parent: ClothingMaskGasERT
   id: ClothingMaskGasDeathSquad
-  name: death squad gas mask
-  description: A unique gas mask for the NT's most elite squad.
+  name: Special forces gas mask
+  description: Red and black gas mask meant for combat. Looks kind of intimidating.
   components:
   - type: Sprite
     sprite: Clothing/Mask/squadron.rsi

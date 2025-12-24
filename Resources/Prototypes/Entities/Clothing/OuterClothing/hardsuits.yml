@@ -1156,40 +1156,81 @@
 
 #Deathsquad
 - type: entity
-  parent: [BaseCentcommContraband, ClothingOuterHardsuitBaseHeavy, BaseIntegratedMagboot, BaseIntegratedManeuveringThrusters]
-  id: ClothingOuterHardsuitDeathsquad
-  name: death squad hardsuit
-  description: An advanced hardsuit favored by commandos for use in special operations.
+  parent: [BaseCentcommContraband, ClothingOuterHardsuitBaseHeavy, BaseIntegratedMagboot]
+  id: ClothingOuterHardsuitDeathSquad
+  name: Special forces hardsuit
+  description: A black and red hardsuit with nothing but the Nanotrasen logo printed on the back. Even though it seems to be made of some kind of plastitanium alloy and is quite thick in comparison to standard Nanotrasen suits, it still feels ridiculously light.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
   - type: PressureProtection
-    highPressureMultiplier: 0.02
-    lowPressureMultiplier: 1000
+    highPressureMultiplier: 0.002
+    lowPressureMultiplier: 10000
   - type: TemperatureProtection
-    heatingCoefficient: 0.001
-    coolingCoefficient: 0.001
+    heatingCoefficient: 0.0001
+    coolingCoefficient: 0.0001
   - type: ExplosionResistance
-    damageCoefficient: 0.2
+    damageCoefficient: 0.1
   - type: FireProtection
-    reduction: 0.8
+    reduction: 1
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.1 #best armor in the game
-        Slash: 0.1
-        Piercing: 0.1
-        Heat: 0.1
-        Radiation: 0.1
-        Caustic: 0.1
+        Blunt: 0.15 #best armor in the game
+        Slash: 0.15
+        Piercing: 0.15
+        Heat: 0.15
+        Radiation: 0
+        Caustic: 0
+        Cold: 0.15
+        Shock: 0
+        Holy: 0.15
+        Cellular: 0.45
   - type: ClothingSpeedModifier
     walkModifier: 1.0
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitDeathsquad
+    clothingPrototype: ClothingHeadHelmetHardsuitDeathSquad
+  - type: EmitsSoundOnMove
+    soundCollection:
+      collection: FootstepHardsuitLight
+      params:
+        volume: -80
+        maxDistance: 0
+        rolloffFactor: 1.2
+  - type: GasTank
+    outputPressure: 42.6
+    air:
+      volume: 30.75
+      temperature: 293.15
+      moles:
+      - 0.769267145 # oxygen
+      - 0.769267145 # nitrogen
+    isInternals: false # So you don't suck on your integrated thrusters
+  - type: ActivatableUI
+    key: enum.SharedGasTankUiKey.Key
+    verbOnly: true
+  - type: UserInterface
+    interfaces:
+      enum.SharedGasTankUiKey.Key:
+        type: GasTankBoundUserInterface
+  - type: Jetpack
+    moleUsage: 0.00001
+  - type: CanMoveInAir
+  - type: InputMover
+    toParent: true
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 1
+    weightlessFriction: 0.3
+    weightlessModifier: 1.2
+  - type: ClothingGrantComponent
+    component:
+    - type: StealthOnMove
+      passiveVisibilityRate: -0.9
+      movementVisibilityRate: 0.3
   - type: StaminaDamageResistance
     coefficient: 0.1 # 90%
 

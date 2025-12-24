@@ -1,0 +1,26 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesSpecops
+  name: Special forces gloves
+  description: Highly advanced pair of gloves meant for a special task force employed by Nanotrasen. Feels kind of heavy for a pair of gloves.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/powerglove.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/powerglove.rsi
+  - type: FingerprintMask
+  - type: Insulated
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
+  - type: Thieving
+    stripTimeReduction: 3
+  - type: MeleeWeapon
+    autoAttack: true
+    attackRate: 0.25
+    heavyStaminaCost: 0
+    heavyDamageBaseModifier: 1.05
+    maxTargets: 999
+    damage:
+      types:
+        Radiation: 45
+    mustBeEquippedToUse: true

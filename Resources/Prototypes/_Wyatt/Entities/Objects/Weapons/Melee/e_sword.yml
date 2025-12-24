@@ -1,0 +1,31 @@
+- type: entity
+  name: overclocked energy cutlass
+  parent: [BaseMeleeWeaponEnergy, BaseMajorContraband]
+  id: EnergyCutlassOverclocked
+  description: A brutally overclocked energy cutlass intended to kill anything and everything it comes in contact with, its so powerful it causes cancer on hit.
+  components:
+  - type: ItemToggleMeleeWeapon
+    activatedDamage:
+        types:
+            Slash: 35
+            Heat: 25
+            Cellular: 15
+    deactivatedSecret: true
+  - type: Sprite
+    sprite: DeltaV/Objects/Weapons/Melee/e_cutlass.rsi
+    layers:
+      - state: e_cutlass
+      - state: e_cutlass_blade
+        color: "#800080"
+        visible: false
+        shader: unshaded
+        map: [ "blade" ]
+  - type: MeleeWeapon
+    attackRate: 0.5
+    soundHit:
+      path: /Audio/Weapons/eblade1.ogg
+    damage:
+      types:
+        Blunt: 8
+  - type: Item
+    sprite: DeltaV/Objects/Weapons/Melee/e_cutlass.rsi
