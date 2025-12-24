@@ -2,7 +2,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesSpecops
   name: Special forces gloves
-  description: Highly advanced hydraulic gloves that leave zero trace, sound, and can steal. It causes extreme radiation via unstable polonium contained within a bluespace pocket thats exposed on contact.
+  description: Highly advanced pair of gloves meant for a special task force employed by Nanotrasen. Feels kind of heavy for a pair of gloves.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/powerglove.rsi
