@@ -10,7 +10,7 @@
 Wyattstation itself is a LRP+ server dedicated to hosting events and whatnot. If you are interested, our official Discord can be found [here](https://discord.gg/QJzGJHNczE). We were originally a downstream of Dangercode, with Dangercode itself being a downstream of Delta-V.
 
 ## Main
-Einstein Engines is a hard fork of [Space Station 14](https://github.com/space-wizards/space-station-14) built around the ideals and design inspirations of the Baystation family of servers from Space Station 13 with a focus on having modular code that anyone can use to make the RP server of their dreams.
+Einstein Engines is a hard fork of [Space Station 14](https://github.com/space-wizards/space-station-14) built around the ideals and design inspirations of the Baystation family of servers from Space Station 13 with a focus on having modular code that anyone can use to make the RP server of their dreams
 Our founding organization is based on a democratic system whereby our mutual contributors and downstreams have a say in what code goes into their own upstream.
 If you are a representative of a former downstream of Delta-V, we would like to invite you to contact us for an opportunity to represent your fork in this new upstream.
 
