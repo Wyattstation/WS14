@@ -26,7 +26,7 @@
     eyes: ClothingEyesHudSecurity
     ears: ClothingHeadsetAltCentCom
     gloves: ClothingHandsGlovesSpecops
-    outerClothing: ClothingOuterHardsuitDeathSquad
+    outerClothing: ClothingOuterHardsuitDeathsquad
     shoes: ClothingShoesBootsMagAdv
     id: DeathsquadPDA
     pocket1: EnergyCutlassOverclocked
