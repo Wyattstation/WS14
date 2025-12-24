@@ -1194,11 +1194,6 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitDeathsquad
-  - type: ClothingGrantComponent
-    component:
-    - type: StealthOnMove
-      passiveVisibilityRate: -0.65
-      movementVisibilityRate: 0.575
   - type: EmitsSoundOnMove
     soundCollection:
       collection: FootstepHardsuitLight
@@ -1231,6 +1226,11 @@
     weightlessAcceleration: 1
     weightlessFriction: 0.3
     weightlessModifier: 1.2
+  - type: ClothingGrantComponent
+    component:
+    - type: StealthOnMove
+      passiveVisibilityRate: -0.5
+      movementVisibilityRate: 0.4
   - type: StaminaDamageResistance
     coefficient: 0.1 # 90%
 
