@@ -451,7 +451,7 @@
 - type: entity
   parent: BaseWall
   id: WallPlastitaniumIndestructible
-  name: plastitanium wall
+  name: hardened plastitanium wall
   suffix: indestructible
   components:
     - type: Tag
@@ -534,7 +534,7 @@
 
 - type: entity
   id: WallPlastitaniumDiagonalIndestructible
-  name: plastitanium wall
+  name: hardened plastitanium wall
   suffix: diagonal, indestructible
   description: Keeps the air in and the greytide out.
   placement:
