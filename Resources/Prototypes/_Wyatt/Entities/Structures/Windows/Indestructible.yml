@@ -44,6 +44,8 @@
   - type: StaticPrice
     price: 0
   - type: BlockWeather
+  - type: RadiationBlocker
+    resistance: 100
   - type: InteractionVerbs
     allowedVerbs:
     - KnockOn
@@ -58,6 +60,34 @@
     sprite: Structures/Windows/reinforced_window.rsi
   - type: Icon
     sprite: Structures/Windows/reinforced_window.rsi
+  - type: IconSmooth
+    base: rwindow
+  - type: Appearance
+
+- type: entity
+  id: ReinforcedPlasmaWindowIndestructible
+  name: hardened reinforced plasma window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/reinforced_plasma_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/reinforced_plasma_window.rsi
+  - type: IconSmooth
+    base: rwindow
+  - type: Appearance
+
+- type: entity
+  id: ReinforcedUraniumWindowIndestructible
+  name: hardened reinforced uranium window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/reinforced_uranium_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/reinforced_uranium_window.rsi
   - type: IconSmooth
     base: rwindow
   - type: Appearance
