@@ -174,7 +174,7 @@
   description: uplink-sarin-gas-grenade-desc
   productEntity: SarinGasGrenade
   cost:
-    Telecrystal: 20
+    Telecrystal: 25
   categories:
   - UplinkWeaponry
 # Wearables
