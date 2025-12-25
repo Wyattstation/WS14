@@ -1,0 +1,39 @@
+- type: listing
+  id: UplinkOmnizineGasGrenade
+  name: uplink-omnizine-gas-grenade-name
+  description: uplink-omnizine-gas-grenade-desc
+  productEntity: OmnizineGasGrenade
+  cost:
+    Telecrystal: 15
+  categories:
+  - UplinkWeaponry
+
+- type: listing
+  id: UplinkPolyacidGasGrenade
+  name: uplink-polyacid-gas-grenade-name
+  description: uplink-polyacid-gas-grenade-desc
+  productEntity: PolyacidGasGrenade
+  cost:
+    Telecrystal: 40
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkPeaceGasGrenade
+  name: uplink-peace-gas-grenade-name
+  description: uplink-peace-gas-grenade-desc
+  productEntity: PeaceGasGrenade
+  cost:
+    Telecrystal: 30
+  categories:
+  - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
