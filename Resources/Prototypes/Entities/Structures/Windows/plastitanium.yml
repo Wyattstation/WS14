@@ -63,7 +63,7 @@
 
 - type: entity
   id: PlastitaniumWindowIndestructible
-  name: plastitanium window
+  name: hardened plastitanium window
   parent: PlastitaniumWindowSquareBase
   suffix: indestructible
 
@@ -152,7 +152,7 @@
 
 - type: entity
   id: PlastitaniumWindowDiagonalIndestructible
-  name: plastitanium window
+  name: hardened plastitanium window
   parent: PlastitaniumWindowDiagonalBase
   suffix: diagonal, indestructible
 
