@@ -2,7 +2,7 @@
   id: WindowIndestructible
   parent: BaseStructure
   name: hardened window
-  description: Even space jesus knows you cant destroy this wall
+  description: Sturdy looking window. You're not breaking this one, pack it up and go home.
   placement:
     mode: SnapgridCenter
     snap:
@@ -47,3 +47,17 @@
   - type: InteractionVerbs
     allowedVerbs:
     - KnockOn
+
+- type: entity
+  id: ReinforcedWindowIndestructible
+  name: hardened reinforced window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/reinforced_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/reinforced_window.rsi
+  - type: IconSmooth
+    base: rwindow
+  - type: Appearance
