@@ -75,7 +75,7 @@
   - type: Icon
     sprite: Structures/Windows/reinforced_plasma_window.rsi
   - type: IconSmooth
-    base: rwindow
+    base: rpwindow
   - type: Appearance
 
 - type: entity
@@ -89,7 +89,63 @@
   - type: Icon
     sprite: Structures/Windows/reinforced_uranium_window.rsi
   - type: IconSmooth
-    base: rwindow
+    base: ruwindow
+  - type: Appearance
+
+- type: entity
+  id: ClockworkWindowIndestructible
+  name: hardened clockwork window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/clockwork_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/clockwork_window.rsi
+  - type: IconSmooth
+    base: cwindow
+  - type: Appearance
+
+- type: entity
+  id: PlasmaWindowIndestructible
+  name: hardened plasma window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/plasma_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/plasma_window.rsi
+  - type: IconSmooth
+    base: pwindow
+  - type: Appearance
+
+- type: entity
+  id: ShuttleWindowIndestructible
+  name: hardened shuttle window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/shuttle_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/shuttle_window.rsi
+  - type: IconSmooth
+    base: swindow
+  - type: Appearance
+
+- type: entity
+  id: UraniumWindowIndestructible
+  name: hardened uranium window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/uranium_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/uranium_window.rsi
+  - type: IconSmooth
+    base: uwindow
   - type: Appearance
 
 - type: entity
