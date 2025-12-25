@@ -1,5 +1,6 @@
 - type: entity
   id: WindowIndestructible
+  suffix: indestructible
   parent: BaseStructure
   name: hardened window
   description: Sturdy looking window. You're not breaking this one, pack it up and go home.
@@ -151,7 +152,7 @@
 - type: entity
   parent: WindowIndestructible
   id: WindowDiagonalIndestructible
-  suffix: diagonal
+  suffix: diagonal, indestructible
   placement:
     mode: SnapgridCenter
     snap:
