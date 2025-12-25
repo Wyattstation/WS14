@@ -48,6 +48,9 @@ uplink-anaconda-desc = The pride of the Cybersun arms concern, this heavy pistol
 uplink-combat-shotgun-name = 'Bojevic' Combat shotgun
 uplink-combat-shotgun-desc = A beefy pump-action shotgun chambered in 8 gauge, with a 5 round magazine tube.
 
+uplink-sarin-gas-grenade-name = Sarin Gas Grenade
+uplink-sarin-gas-grenade-desc = A brutal neurotoxin gas that stuns, blinds, and poisons anybody unlucky enough to catch a whiff as well as burning anyone not in a voidsuit, leaving them writhing on the floor begging to be finished off.
+
 # Ammo
 
 uplink-blast-grenade-name = Blast Grenade
