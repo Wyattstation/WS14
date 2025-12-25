@@ -1,14 +1,49 @@
 - type: entity
-  id: ReinforcedWindowIndestructible
-  name: hardened reinforced window
-  parent: Window
+  id: WindowIndestructible
+  parent: BaseStructure
+  name: hardened window
+  description: Even space jesus knows you cant destroy this wall
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
   components:
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        collection: GlassSmack
+  - type: WallMount
+    arc: 360 # interact despite grilles
+  - type: Tag
+    tags:
+      - ForceFixRotations
+      - Window
+      - WeldbotFixableStructure
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/reinforced_window.rsi
+    sprite: Structures/Windows/window.rsi
   - type: Icon
-    sprite: Structures/Windows/reinforced_window.rsi
+    sprite: Structures/Windows/window.rsi
+    state: full
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb {}
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
   - type: IconSmooth
-    base: rwindow
-    node: reinforcedWindow
+    key: walls
+    base: window
   - type: Appearance
+  - type: StaticPrice
+    price: 0
+  - type: BlockWeather
+  - type: InteractionVerbs
+    allowedVerbs:
+    - KnockOn
