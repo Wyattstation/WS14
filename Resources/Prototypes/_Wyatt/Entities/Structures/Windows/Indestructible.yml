@@ -1,0 +1,192 @@
+- type: entity
+  id: WindowIndestructible
+  suffix: indestructible
+  parent: BaseStructure
+  name: hardened window
+  description: Sturdy looking window. You're not breaking this one, pack it up and go home.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        collection: GlassSmack
+  - type: WallMount
+    arc: 360 # interact despite grilles
+  - type: Tag
+    tags:
+      - ForceFixRotations
+      - Window
+      - WeldbotFixableStructure
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/window.rsi
+  - type: Icon
+    sprite: Structures/Windows/window.rsi
+    state: full
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb {}
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+  - type: IconSmooth
+    key: walls
+    base: window
+  - type: Appearance
+  - type: StaticPrice
+    price: 0
+  - type: BlockWeather
+  - type: RadiationBlocker
+    resistance: 100
+  - type: InteractionVerbs
+    allowedVerbs:
+    - KnockOn
+
+- type: entity
+  id: ReinforcedWindowIndestructible
+  name: hardened reinforced window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/reinforced_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/reinforced_window.rsi
+  - type: IconSmooth
+    base: rwindow
+  - type: Appearance
+
+- type: entity
+  id: ReinforcedPlasmaWindowIndestructible
+  name: hardened reinforced plasma window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/reinforced_plasma_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/reinforced_plasma_window.rsi
+  - type: IconSmooth
+    base: rpwindow
+  - type: Appearance
+
+- type: entity
+  id: ReinforcedUraniumWindowIndestructible
+  name: hardened reinforced uranium window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/reinforced_uranium_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/reinforced_uranium_window.rsi
+  - type: IconSmooth
+    base: ruwindow
+  - type: Appearance
+
+- type: entity
+  id: ClockworkWindowIndestructible
+  name: hardened clockwork window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/clockwork_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/clockwork_window.rsi
+  - type: IconSmooth
+    base: cwindow
+  - type: Appearance
+
+- type: entity
+  id: PlasmaWindowIndestructible
+  name: hardened plasma window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/plasma_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/plasma_window.rsi
+  - type: IconSmooth
+    base: pwindow
+  - type: Appearance
+
+- type: entity
+  id: ShuttleWindowIndestructible
+  name: hardened shuttle window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/shuttle_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/shuttle_window.rsi
+  - type: IconSmooth
+    base: swindow
+  - type: Appearance
+
+- type: entity
+  id: UraniumWindowIndestructible
+  name: hardened uranium window
+  parent: WindowIndestructible
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/uranium_window.rsi
+  - type: Icon
+    sprite: Structures/Windows/uranium_window.rsi
+  - type: IconSmooth
+    base: uwindow
+  - type: Appearance
+
+- type: entity
+  parent: WindowIndestructible
+  id: WindowDiagonalIndestructible
+  suffix: diagonal, indestructible
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/window_diagonal.rsi
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls
+    base: state
+  - type: Icon
+    sprite: Structures/Windows/window_diagonal.rsi
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East

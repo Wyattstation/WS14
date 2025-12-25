@@ -1,0 +1,118 @@
+- type: entity
+  abstract: true
+  parent: BaseStructure
+  id: BaseWallIndestructible
+  name: basewall indestructible
+  description: Sturdy looking wall. You're not breaking this one, pack it up and go home.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: RangedDamageSound
+    soundGroups:
+      Brute:
+        collection:
+          MetalBulletImpact
+    soundTypes:
+      Heat:
+        collection:
+          MetalLaserImpact
+  - type: Tag
+    tags:
+    - Wall
+  - type: IsRoof
+  - type: Sprite
+    drawdepth: Walls
+  - type: Icon
+    state: full
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+        density: 1000
+  - type: Occluder
+  - type: Airtight
+  - type: StaticPrice
+    price: 0
+  - type: RadiationBlocker
+    resistance: 100
+  - type: BlockWeather
+
+- type: entity
+  parent: BaseWallIndestructible
+  id: WallSolidIndestructible
+  name: hardened solid wall
+  components:
+  - type: Tag
+    tags:
+      - Wall
+  - type: Sprite
+    sprite: Structures/Walls/solid.rsi
+  - type: Icon
+    sprite: Structures/Walls/solid.rsi
+  - type: IconSmooth
+    key: walls
+    base: solid
+
+- type: entity
+  parent: BaseWallIndestructible
+  id: WallRivetedIndestructible
+  name: hardened riveted wall
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/riveted.rsi
+  - type: Icon
+    sprite: Structures/Walls/riveted.rsi
+  - type: IconSmooth
+    key: walls
+    base: riveted
+
+- type: entity
+  parent: BaseWallIndestructible
+  id: WallReinforcedIndestructible
+  name: hardened reinforced wall
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/solid.rsi
+  - type: Icon
+    sprite: Structures/Walls/solid.rsi
+    state: rgeneric
+  - type: IconSmooth
+    key: walls
+    base: reinf_over
+
+- type: entity
+  parent: BaseWallIndestructible
+  id: WallClockIndestructible
+  name: hardened clock wall
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/clock.rsi
+  - type: Icon
+    sprite: Structures/Walls/clock.rsi
+  - type: IconSmooth
+    key: walls
+    base: clock
+
+- type: entity
+  parent: BaseWallIndestructible
+  id: WallShuttleIndestructible
+  name: hardened shuttle wall
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/shuttle.rsi
+  - type: Icon
+    sprite: Structures/Walls/shuttle.rsi
+    state: full
+  - type: IconSmooth
+    key: walls
+    base: state
