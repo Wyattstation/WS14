@@ -1,11 +1,14 @@
 - type: entity
   id: ReinforcedWindowIndestructible
   name: hardened reinforced window
-  parent: PlastitaniumWindowSquareBase
-  suffix: indestructible
+  parent: Window
   components:
   - type: Sprite
     drawdepth: WallTops
     sprite: Structures/Windows/reinforced_window.rsi
   - type: Icon
     sprite: Structures/Windows/reinforced_window.rsi
+  - type: IconSmooth
+    base: rwindow
+    node: reinforcedWindow
+  - type: Appearance
