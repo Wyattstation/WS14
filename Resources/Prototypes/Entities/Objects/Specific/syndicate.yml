@@ -67,7 +67,7 @@
   parent: [BaseItem, StorePresetUplink, BaseSyndicateContraband]
   id: BaseUplinkRadio
   name: syndicate uplink
-  description: Suspiciously looking old radio...
+  description: Advanced redspace teleporter unit for obtainihg syndicate gear. Remember agent, dont let these into their hands!
   suffix: Empty
   components:
   - type: Sprite
@@ -113,6 +113,7 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio40TC
+  description: Advanced redspace teleporter unit for obtainihg mission gear. GET DAT FUCKIN DISK!
   suffix: 250 TC, NukeOps
   components:
   - type: Store
@@ -125,6 +126,7 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio60TC
+  description: Advanced redspace teleporter unit for obtainihg mission gear. GET DAT FUCKIN DISK!
   suffix: 350 TC, LoneOps
   components:
   - type: Store
