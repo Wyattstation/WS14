@@ -18,6 +18,7 @@ store-category-wearables = Wearables
 store-category-consumables = Consumables
 store-category-medical = Medical
 store-category-vendors = Vendors
+store-category-implants = Implants
 store-category-species-restricted = Species
 store-category-role-restricted = Role
 store-category-misc-gadgets = Misc
