@@ -41,3 +41,8 @@
     Telecrystal: 80
   categories:
   - UplinkWeaponry
+  conditions: # NO NO NO NO!!
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
