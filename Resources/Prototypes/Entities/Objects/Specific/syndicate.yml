@@ -1,4 +1,3 @@
-
 - type: entity
   name: telecrystal
   parent: [BaseItem, BaseSyndicateContraband]
@@ -47,6 +46,22 @@
   - type: Stack
     count: 10
 
+- type: entity
+  parent: Telecrystal
+  id: Telecrystal50
+  suffix: 50 TC
+  components:
+  - type: Stack
+    count: 50
+
+- type: entity
+  parent: Telecrystal
+  id: Telecrystal100
+  suffix: 100 TC
+  components:
+  - type: Stack
+    count: 100
+
 # Uplinks
 - type: entity
   parent: [BaseItem, StorePresetUplink, BaseSyndicateContraband]
@@ -56,12 +71,16 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Devices/communication.rsi
+    sprite: _NF/Objects/Devices/pirate_uplink.rsi
     layers:
-    - state: radio
+    - state: icon
+      scale: 0.8, 0.8
+    - state: icon-overlay
+      scale: 0.8, 0.8
+      shader: unshaded
   - type: Item
-    sprite: Objects/Devices/communication.rsi
-    heldPrefix: radio
+    sprite: _NF/Objects/Devices/pirate_uplink.rsi
+    heldPrefix: icon
   - type: UserInterface
     interfaces:
       enum.StoreUiKey.Key:
