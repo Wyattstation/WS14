@@ -70,18 +70,18 @@
   priority: 6
 
 - type: storeCategory
+  id: UplinkDeception
+  name: store-category-deception
+  priority: 9
+
+- type: storeCategory
   id: UplinkAmmunition
   name: store-category-ammunition
-  priority: 7
+  priority: 9
 
 - type: storeCategory
   id: UplinkAmmunitionRestock
   name: store-category-ammunition-restock
-  priority: 8
-
-- type: storeCategory
-  id: UplinkDeception
-  name: store-category-deception
   priority: 9
 
 - type: storeCategory
