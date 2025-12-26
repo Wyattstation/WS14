@@ -2,7 +2,7 @@ cqc-fail-used = {CAPITALIZE(THE($manual))} is already used.
 cqc-fail-notself = You can't teach anyone with {CAPITALIZE(THE($manual))}.
 
 cqc-fail-knowanother = You already know another martial art.
-cqc-fail-already = You already know everything about a Martial art.
+cqc-fail-already = You already know everything about the martial art {CAPITALIZE(THE($manual))} is attempting to teach you.
 cqc-success-unblocked = Your Close Quarters Combat skills are no longer bound to your kitchen.
 cqc-success-learned = You have learned Close Quarters Combat.
 
