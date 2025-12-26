@@ -67,7 +67,7 @@
   parent: [BaseItem, StorePresetUplink, BaseSyndicateContraband]
   id: BaseUplinkRadio
   name: syndicate uplink
-  description: Advanced redspace teleporter unit for obtainihg syndicate gear. Remember agent, dont let these into their hands!
+  description: Advanced redspace teleporter unit for obtaining syndicate gear. Remember agent, dont let these into their hands!
   suffix: Empty
   components:
   - type: Sprite
@@ -114,7 +114,7 @@
   parent: BaseUplinkRadio
   id: BaseUplinkRadio40TC
   name: nuclear uplink
-  description: Advanced redspace teleporter unit for obtainihg mission gear. GET DAT FUCKIN DISK!
+  description: Advanced redspace teleporter unit for obtaining mission gear. GET DAT FUCKIN DISK!
   suffix: 250 TC, NukeOps
   components:
   - type: Store
@@ -128,7 +128,7 @@
   parent: BaseUplinkRadio
   id: BaseUplinkRadio60TC
   name: nuclear uplink
-  description: Advanced redspace teleporter unit for obtainihg mission gear. GET DAT FUCKIN DISK!
+  description: Advanced redspace teleporter unit for obtaining mission gear. GET DAT FUCKIN DISK!
   suffix: 350 TC, LoneOps
   components:
   - type: Store
@@ -167,7 +167,7 @@
   parent: BaseUplinkRadio
   id: BaseUplinkRadioSIT
   name: special infiltration team uplink
-  description: Advanced redspace teleporter unit for obtainihg mission gear. Dont dilly dally and get ready!
+  description: Advanced redspace teleporter unit for obtaining mission gear. Dont dilly dally and get ready!
   suffix: 450 TC, SIT
   components:
   - type: Store
