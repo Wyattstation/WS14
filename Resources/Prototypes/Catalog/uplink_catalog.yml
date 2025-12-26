@@ -731,7 +731,7 @@
   cost:
     Telecrystal: 5
   categories:
-  - UplinkAmmunition
+  - UplinkAmmunitionRestock
 
 # for the hristov
 - type: listing
@@ -742,7 +742,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkAmmunition
+  - UplinkAmmunitionRestock
 
 - type: listing
   id: UplinkHristovAmmoShrapnel
