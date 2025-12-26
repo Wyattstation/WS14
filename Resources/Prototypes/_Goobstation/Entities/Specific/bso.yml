@@ -2,7 +2,7 @@
   parent: BaseItem
   id: BSOManual
   name: Nanotrasen CQC Manual
-  description: A small, blue manual. There are drawn instructions of tactical hand-to-hand combat.
+  description: A manual that teaches a single user Close Quarters Combat. Will self-destruct upon use. A label on the book says '100% LEGIT NT DESIGNED COMBAT NANITES' 
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/cqc_manual.rsi

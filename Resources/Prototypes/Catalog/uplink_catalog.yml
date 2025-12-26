@@ -94,7 +94,6 @@
   categories:
   - UplinkWeaponry
 
-
 - type: listing
   id: UplinkGlovesNorthStar
   name: uplink-gloves-north-star-name
@@ -172,6 +171,11 @@
     Telecrystal: 55
   categories:
   - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkBulldogBundle
@@ -186,6 +190,11 @@
     Telecrystal: 100
   categories:
   - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkGrenadeLauncherBundle
@@ -200,6 +209,11 @@
     Telecrystal: 125
   categories:
   - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkL6SawBundle
@@ -214,6 +228,11 @@
     Telecrystal: 150
   categories:
   - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkFPA90Bundle
@@ -243,6 +262,11 @@
     Telecrystal: 20
   categories:
   - UplinkExplosives
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkExplosiveGrenadeFlash
@@ -289,6 +313,11 @@
     Telecrystal: 30
   categories:
   - UplinkExplosives
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkWhiteholeGrenade
@@ -302,6 +331,11 @@
     Telecrystal: 15
   categories:
   - UplinkExplosives
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkGrenadePenguin
@@ -364,6 +398,11 @@
     Telecrystal: 60 #you're buying bulk so its a 25% discount, so no additional random discount over it
   categories:
   - UplinkExplosives
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkEmpGrenade
@@ -435,6 +474,11 @@
     Telecrystal: 40
   categories:
   - UplinkExplosives
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkGrenadeShrapnel
@@ -461,6 +505,11 @@
     Telecrystal: 20
   categories:
   - UplinkExplosives
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkEmpKit
@@ -474,6 +523,11 @@
     Telecrystal: 30
   categories:
   - UplinkExplosives
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 # Ammo
 
@@ -498,6 +552,11 @@
     Telecrystal: 8
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkPistol9mmMagazineShrapnel
@@ -509,6 +568,11 @@
     Telecrystal: 7
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 # For the C20R
 - type: listing
@@ -532,6 +596,11 @@
     Telecrystal: 14
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkMagazinePistolSubMachineGunShrapnel
@@ -543,6 +612,11 @@
     Telecrystal: 12
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 # .25 Caseless Rifle, for the Cobra and FPA-90
 - type: listing
@@ -566,6 +640,11 @@
     Telecrystal: 8
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkMagazinePistolCaselessRifleShrapnel
@@ -577,6 +656,11 @@
     Telecrystal: 7
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkMagazineCaselessRifle
@@ -599,6 +683,11 @@
     Telecrystal: 14
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkMagazineCaselessRifleShrapnel
@@ -610,6 +699,11 @@
     Telecrystal: 12
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 # For the Python
 - type: listing
@@ -622,6 +716,11 @@
     Telecrystal: 15
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 # For the mosin
 - type: listing
@@ -654,6 +753,11 @@
     Telecrystal: 12
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkAmmoBundle
@@ -849,6 +953,11 @@
     Telecrystal: 60
   categories:
   - UplinkChemicals
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkCigarettes
@@ -1245,10 +1354,6 @@
   categories:
   - UplinkDisruption
   conditions:
-  - !type:StoreWhitelistCondition
-    blacklist:
-      tags:
-      - NukeOpsUplink
   - !type:BuyerWhitelistCondition
     blacklist:
       components:
@@ -1429,11 +1534,6 @@
     Telecrystal: 40
   categories:
   - UplinkImplants
-  conditions:
-  - !type:StoreWhitelistCondition
-    blacklist:
-      tags:
-      - NukeOpsUplink
 
 - type: listing
   id: UplinkFreedomImplanter
@@ -1555,11 +1655,6 @@
     Telecrystal: 20
   categories:
   - UplinkImplants
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - NukeOpsUplink
 
 - type: listing
   id: UplinkUplinkImplanter # uplink uplink real
@@ -1590,10 +1685,6 @@
   categories:
   - UplinkImplants
   conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - NukeOpsUplink
   - !type:BuyerWhitelistCondition
     blacklist:
       components:
@@ -1611,7 +1702,6 @@
     Telecrystal: 20
   categories:
   - UplinkImplants
-
 
 # Wearables
 
@@ -1752,34 +1842,6 @@
   - UplinkWearables
 
 - type: listing
-  id: UplinkHardsuitSyndieMedic
-  name: uplink-hardsuit-syndie-medic-name
-  description: uplink-hardsuit-syndie-medic-desc
-  icon: { sprite: _Impstation/Clothing/OuterClothing/Hardsuits/syndicate_agent.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateHardsuitMedicBundle
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 20
-  cost:
-    Telecrystal: 50
-  categories:
-  - UplinkWearables
-
-- type: listing
-  id: UplinkHardsuitSyndieCommander
-  name: uplink-hardsuit-syndie-commander-name
-  description: uplink-hardsuit-syndie-commander-desc
-  icon: { sprite: _Impstation/Clothing/OuterClothing/Hardsuits/syndicate_commander.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateHardsuitCommanderBundle
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 25
-  cost:
-    Telecrystal: 55
-  categories:
-  - UplinkWearables
-
-- type: listing
   id: UplinkClothingConductingGloves
   name: uplink-clothing-conducting-gloves-name
   description: uplink-clothing-conducting-gloves-desc
@@ -1841,6 +1903,11 @@
     Telecrystal: 60
   categories:
   - UplinkWearables
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkClothingEyesHudSyndicate
@@ -1853,7 +1920,7 @@
   - UplinkWearables
   conditions:
   - !type:StoreWhitelistCondition
-    blacklist:
+    whitelist:
       tags:
       - NukeOpsUplink
   - !type:BuyerWhitelistCondition

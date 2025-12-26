@@ -10,6 +10,11 @@
     Telecrystal: 400
   categories:
   - UplinkAllies
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkMauler
@@ -38,11 +43,6 @@
     Telecrystal: 60
   categories:
   - UplinkDeception
-  conditions:
-  - !type:StoreWhitelistCondition
-    whitelist:
-      tags:
-      - NukeOpsUplink
 
 - type: listing
   id: UplinkMysteriousScroll
@@ -109,6 +109,11 @@
     Telecrystal: 85
   categories:
   - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkWeaponRifleBurner
@@ -136,6 +141,11 @@
     Telecrystal: 50
   categories:
   - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkDualettaKit
@@ -157,6 +167,11 @@
     Telecrystal: 40
   categories:
   - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkCombatShotgun
@@ -203,6 +218,11 @@
     Telecrystal: 100
   categories:
   - UplinkWearables
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkSyndicateSegwayCrate
@@ -259,6 +279,11 @@
     Telecrystal: 12 # Twice as much compared to regular mags. Idk if it's reasonable
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkMagazineHighCaliber
@@ -336,6 +361,11 @@
     Telecrystal: 12
   categories:
   - UplinkAmmo
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
 # Misc
 
 - type: listing

@@ -1,4 +1,3 @@
-
 - type: entity
   name: telecrystal
   parent: [BaseItem, BaseSyndicateContraband]
@@ -47,21 +46,41 @@
   - type: Stack
     count: 10
 
+- type: entity
+  parent: Telecrystal
+  id: Telecrystal50
+  suffix: 50 TC
+  components:
+  - type: Stack
+    count: 50
+
+- type: entity
+  parent: Telecrystal
+  id: Telecrystal100
+  suffix: 100 TC
+  components:
+  - type: Stack
+    count: 100
+
 # Uplinks
 - type: entity
   parent: [BaseItem, StorePresetUplink, BaseSyndicateContraband]
   id: BaseUplinkRadio
   name: syndicate uplink
-  description: Suspiciously looking old radio...
+  description: Advanced redspace teleporter unit for obtaining syndicate gear. Remember agent, dont let these into their hands!
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Devices/communication.rsi
+    sprite: _NF/Objects/Devices/pirate_uplink.rsi
     layers:
-    - state: radio
+    - state: icon
+      scale: 0.8, 0.8
+    - state: icon-overlay
+      scale: 0.8, 0.8
+      shader: unshaded
   - type: Item
-    sprite: Objects/Devices/communication.rsi
-    heldPrefix: radio
+    sprite: _NF/Objects/Devices/pirate_uplink.rsi
+    heldPrefix: icon
   - type: UserInterface
     interfaces:
       enum.StoreUiKey.Key:
@@ -94,11 +113,13 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio40TC
+  name: nuclear uplink
+  description: Advanced redspace teleporter unit for obtaining mission gear. GET DAT FUCKIN DISK!
   suffix: 250 TC, NukeOps
   components:
   - type: Store
     balance:
-      Telecrystal: 250 # 5x TC, +cost of a tacsuit they no longer spawn with.
+      Telecrystal: 250 # 2.5x TC
   - type: Tag
     tags:
     - NukeOpsUplink
@@ -106,11 +127,13 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio60TC
+  name: nuclear uplink
+  description: Advanced redspace teleporter unit for obtaining mission gear. GET DAT FUCKIN DISK!
   suffix: 350 TC, LoneOps
   components:
   - type: Store
     balance:
-      Telecrystal: 350 # 5x TC, +cost of a tacsuit they no longer spawn with.
+      Telecrystal: 350 # 3.5x TC
   - type: Tag
     tags:
     - NukeOpsUplink
@@ -118,8 +141,38 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadioDebug
+  name: DEBUG UPLINK TRAITOR
+  description: You REALLY shouldn't have this unless you're a jannie or coder!
   suffix: DEBUG
   components:
   - type: Store
     balance:
       Telecrystal: 99999
+
+- type: entity
+  parent: BaseUplinkRadio
+  id: BaseUplinkRadioDebugNukeops
+  name: DEBUG UPLINK NUCLEAR
+  description: You REALLY shouldn't have this unless you're a jannie or coder!
+  suffix: DEBUG, Nukeops
+  components:
+  - type: Store
+    balance:
+      Telecrystal: 99999
+  - type: Tag
+    tags:
+    - NukeOpsUplink
+
+- type: entity
+  parent: BaseUplinkRadio
+  id: BaseUplinkRadioSIT
+  name: special infiltration team uplink
+  description: Advanced redspace teleporter unit for obtaining mission gear. Dont dilly dally and get ready!
+  suffix: 450 TC, SIT
+  components:
+  - type: Store
+    balance:
+      Telecrystal: 450 # 4.5x TC
+  - type: Tag
+    tags:
+    - NukeOpsUplink
