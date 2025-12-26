@@ -113,12 +113,13 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio40TC
+  name: nuclear uplink
   description: Advanced redspace teleporter unit for obtainihg mission gear. GET DAT FUCKIN DISK!
   suffix: 250 TC, NukeOps
   components:
   - type: Store
     balance:
-      Telecrystal: 250 # 5x TC, +cost of a tacsuit they no longer spawn with.
+      Telecrystal: 250 # 2.5x TC
   - type: Tag
     tags:
     - NukeOpsUplink
@@ -126,12 +127,13 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadio60TC
+  name: nuclear uplink
   description: Advanced redspace teleporter unit for obtainihg mission gear. GET DAT FUCKIN DISK!
   suffix: 350 TC, LoneOps
   components:
   - type: Store
     balance:
-      Telecrystal: 350 # 5x TC, +cost of a tacsuit they no longer spawn with.
+      Telecrystal: 350 # 3.5x TC
   - type: Tag
     tags:
     - NukeOpsUplink
@@ -170,7 +172,7 @@
   components:
   - type: Store
     balance:
-      Telecrystal: 450
+      Telecrystal: 450 # 4.5x TC
   - type: Tag
     tags:
     - NukeOpsUplink
