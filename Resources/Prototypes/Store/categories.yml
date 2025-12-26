@@ -35,64 +35,119 @@
 
 #uplink categoires
 - type: storeCategory
-  id: UplinkWeaponry
-  name: store-category-weapons
+  id: UplinkKits
+  name: store-category-kits
   priority: 0
 
 - type: storeCategory
-  id: UplinkAmmo
-  name: store-category-ammo
+  id: UplinkRangedWeapons
+  name: store-category-ranged-weapons
   priority: 1
 
 - type: storeCategory
-  id: UplinkExplosives
-  name: store-category-explosives
+  id: UplinkMeleeWeapons
+  name: store-category-melee-weapons
   priority: 2
 
 - type: storeCategory
-  id: UplinkWearables
-  name: store-category-wearables
+  id: UplinkStealthyWeapons
+  name: store-category-stealthy-weapons
   priority: 3
 
 - type: storeCategory
-  id: UplinkChemicals
-  name: store-category-chemicals
+  id: UplinkExplosiveWeapons
+  name: store-category-explosive-weapons
   priority: 4
+
+- type: storeCategory
+  id: UplinkExplosiveGadgets
+  name: store-category-explosive-gadgets
+  priority: 5
+
+- type: storeCategory
+  id: UplinkStealthGadgets
+  name: store-category-stealth-gadgets
+  priority: 6
 
 - type: storeCategory
   id: UplinkDeception
   name: store-category-deception
-  priority: 5
+  priority: 7
+
+- type: storeCategory
+  id: UplinkAmmunition
+  name: store-category-ammunition
+  priority: 8
+
+- type: storeCategory
+  id: UplinkAmmunitionRestock
+  name: store-category-ammunition-restock
+  priority: 9
 
 - type: storeCategory
   id: UplinkDisruption
   name: store-category-disruption
-  priority: 6
+  priority: 10
 
 - type: storeCategory
-  id: UplinkImplants
-  name: store-category-implants
-  priority: 7
+  id: UplinkWearables
+  name: store-category-wearables
+  priority: 11
+
+- type: storeCategory
+  id: UplinkMobility
+  name: store-category-mobility
+  priority: 12
 
 - type: storeCategory
   id: UplinkAllies
   name: store-category-allies
-  priority: 8
+  priority: 13
 
 - type: storeCategory
-  id: UplinkJob
-  name: store-category-job
-  priority: 9
+  id: UplinkConsumables
+  name: store-category-consumables
+  priority: 14
+
+- type: storeCategory
+  id: UplinkMedical
+  name: store-category-medical
+  priority: 15
+
+- type: storeCategory
+  id: UplinkImplants
+  name: store-category-implants
+  priority: 15
+
+- type: storeCategory
+  id: UplinkCurrencyReliant
+  name: store-category-vendors
+  priority: 16
+
+- type: storeCategory
+  id: UplinkSpeciesRestricted
+  name: store-category-species-restricted
+  priority: 17
+
+- type: storeCategory
+  id: UplinkRoleRestricted
+  name: store-category-role-restricted
+  priority: 18
+
+- type: storeCategory
+  id: UplinkMiscGadgets
+  name: store-category-misc-gadgets
+  priority: 19
 
 - type: storeCategory
   id: UplinkPointless
   name: store-category-pointless
-  priority: 10
+  priority: 20
 
 - type: storeCategory
-  id: UplinkSales
-  name: Sales
-  priority: 11
+  id: UplinkDiscounts
+  name: store-discounted-items
+  priority: 21
 
 #revenant
 - type: storeCategory

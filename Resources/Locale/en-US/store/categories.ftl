@@ -1,16 +1,27 @@
 # Uplink
 store-category-debug = debug category
 store-category-debug2 = debug category 2
-store-category-weapons = Weaponry
-store-category-ammo = Ammo
-store-category-explosives = Explosives
-store-category-chemicals = Chemicals
+store-category-kits = Kits
+store-category-ranged-weapons = Ranged Weapons
+store-category-melee-weapons = Melee Weapons
+store-category-stealthy-weapons = Stealth Weapons
+store-category-explosive-weapons = Explosive Weapons
+store-category-explosive-gadgets = Explosive Gadgets
+store-category-stealth-gadgets = Stealth Gadgets
+store-category-ammunition = Ammunition
+store-category-ammunition-restock = Ammunition Restock
 store-category-deception = Deception
 store-category-disruption = Disruption
-store-category-implants = Implants
+store-category-mobility = Mobility
 store-category-allies = Allies
-store-category-job = Job
 store-category-wearables = Wearables
+store-category-consumables = Consumables
+store-category-medical = Medical
+store-category-vendors = Vendors
+store-category-implants = Implants
+store-category-species-restricted = Species
+store-category-role-restricted = Role
+store-category-misc-gadgets = Misc
 store-category-pointless = Pointless
 store-discounted-items = Discounts
 

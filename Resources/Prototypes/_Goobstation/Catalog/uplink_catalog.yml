@@ -42,7 +42,7 @@
   cost:
     Telecrystal: 60
   categories:
-  - UplinkDeception
+  - UplinkStealthyWeapons
 
 - type: listing
   id: UplinkMysteriousScroll
@@ -52,7 +52,7 @@
   cost:
     Telecrystal: 70
   categories:
-  - UplinkWeaponry
+  - UplinkStealthyWeapons
   conditions:
   - !type:StoreWhitelistCondition
     blacklist:
@@ -81,7 +81,7 @@
   cost:
     Telecrystal: 80
   categories:
-  - UplinkWeaponry
+  - UplinkStealthyWeapons
   conditions:
   - !type:StoreWhitelistCondition
     blacklist:
@@ -97,7 +97,7 @@
   cost:
     Telecrystal: 50 #same as c20r until I add the underbarrel grenade launcher
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
 
 - type: listing
   id: UplinkWSPR
@@ -108,7 +108,7 @@
   cost:
     Telecrystal: 85
   categories:
-  - UplinkWeaponry
+  - UplinkStealthyWeapons
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -124,7 +124,7 @@
   cost:
     Telecrystal: 125 # don't kill me piras
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -140,7 +140,7 @@
   cost:
     Telecrystal: 50
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -156,7 +156,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
 
 - type: listing
   id: UplinkPistolAnaconda
@@ -166,7 +166,7 @@
   cost:
     Telecrystal: 40
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -181,7 +181,7 @@
   cost:
     Telecrystal: 80
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
 
 - type: listing
   id: UplinkSarinGasGrenade
@@ -191,7 +191,7 @@
   cost:
     Telecrystal: 25
   categories:
-  - UplinkWeaponry
+  - UplinkExplosiveGadgets
 # Wearables
 
 - type: listing
@@ -233,7 +233,7 @@
   cost:
     Telecrystal: 25 # Same as what it was before being removed
   categories:
-  - UplinkDisruption
+  - UplinkPointless
   conditions:
   - !type:BuyerWhitelistCondition
     blacklist:
@@ -251,7 +251,7 @@
   cost:
     Telecrystal: 5
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -267,7 +267,7 @@
   cost:
     Telecrystal: 6 # Slightly more expensive than C20 mag due to more total damage
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
 
 - type: listing
   id: UplinkMagazineHighCaliberExplosive
@@ -278,7 +278,7 @@
   cost:
     Telecrystal: 12 # Twice as much compared to regular mags. Idk if it's reasonable
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -294,7 +294,7 @@
   cost:
     Telecrystal: 6 # Slightly more total damage compared to C20 mags
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
 
 - type: listing
   id: UplinkMagazineLightRifleBox
@@ -305,7 +305,7 @@
   cost:
     Telecrystal: 25 # 5 times as much total damage as C20 mag - 5 time as much cost
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
 
 - type: listing
   id: UplinkHighCapacityMagazinePistol
@@ -316,7 +316,7 @@
   cost:
     Telecrystal: 3
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
 
 - type: listing
   id: UplinkBox8Gauge
@@ -327,7 +327,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkAmmo
+  - UplinkAmmunitionRestock
 
 - type: listing
   id: UplinkBox8GaugeSlug
@@ -338,7 +338,7 @@
   cost:
     Telecrystal: 8
   categories:
-  - UplinkAmmo
+  - UplinkAmmunitionRestock
 
 - type: listing
   id: UplinkBox8GaugeFlash
@@ -349,7 +349,7 @@
   cost:
     Telecrystal: 1
   categories:
-  - UplinkAmmo
+  - UplinkAmmunitionRestock
 
 - type: listing
   id: UplinkBox8GaugeSarin
@@ -360,7 +360,7 @@
   cost:
     Telecrystal: 12
   categories:
-  - UplinkAmmo
+  - UplinkAmmunitionRestock
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -376,4 +376,4 @@
   cost:
     Telecrystal: 70
   categories:
-  - UplinkDeception
+  - UplinkStealthGadgets

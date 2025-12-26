@@ -12,7 +12,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
 
 - type: listing
   id: UplinkRevolverPython
@@ -25,7 +25,7 @@
   cost:
     Telecrystal: 40
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
 
 # Inbuilt suppressor so it's sneaky + more expensive.
 - type: listing
@@ -39,7 +39,7 @@
   cost:
     Telecrystal: 15
   categories:
-  - UplinkWeaponry
+  - UplinkStealthyWeapons
 
 # Poor accuracy, slow to fire, cheap option
 - type: listing
@@ -50,7 +50,7 @@
   cost:
     Telecrystal: 5
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
 
 - type: listing
   id: UplinkEsword
@@ -64,7 +64,7 @@
   cost:
     Telecrystal: 40
   categories:
-  - UplinkWeaponry
+  - UplinkMeleeWeapons
 
 - type: listing
   id: UplinkEnergyDagger
@@ -78,7 +78,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkWeaponry
+  - UplinkMeleeWeapons
 
 - type: listing
   id: UplinkThrowingKnivesKit
@@ -92,7 +92,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkWeaponry
+  - UplinkStealthyWeapons
 
 - type: listing
   id: UplinkGlovesNorthStar
@@ -105,7 +105,7 @@
   cost:
     Telecrystal: 40
   categories:
-  - UplinkWeaponry
+  - UplinkMeleeWeapons
 
 - type: listing
   id: UplinkDisposableTurret
@@ -118,7 +118,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkWeaponry
+  - UplinkDisruption
   conditions:
   - !type:StoreWhitelistCondition
     blacklist:
@@ -142,7 +142,7 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - NukeOpsUplink
+      - UplinkMiscGadgets
 
 - type: listing
   id: UplinkSniperBundle
@@ -156,7 +156,7 @@
   cost:
     Telecrystal: 60
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
 
 - type: listing
   id: UplinkC20RBundle
@@ -170,7 +170,7 @@
   cost:
     Telecrystal: 55
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -189,7 +189,7 @@
   cost:
     Telecrystal: 100
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -208,7 +208,7 @@
   cost:
     Telecrystal: 125
   categories:
-  - UplinkWeaponry
+  - UplinkExplosiveWeapons
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -227,7 +227,7 @@
   cost:
     Telecrystal: 150
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -246,7 +246,7 @@
   cost:
     Telecrystal: 50
   categories:
-  - UplinkWeaponry
+  - UplinkRangedWeapons
 
 # Explosives
 
@@ -261,7 +261,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -276,7 +276,7 @@
   cost:
     Telecrystal: 5
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
 
 - type: listing
   id: UplinkSmokeGrenade
@@ -286,7 +286,7 @@
   cost:
     Telecrystal: 5
   categories:
-  - UplinkExplosives
+  - UplinkStealthGadgets
 
 - type: listing
   id: UplinkSyndieMiniBomb
@@ -299,7 +299,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
 
 - type: listing
   id: UplinkSupermatterGrenade
@@ -312,7 +312,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -330,7 +330,7 @@
   cost:
     Telecrystal: 15
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -348,7 +348,7 @@
   cost:
     Telecrystal: 25
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
   conditions:
   - !type:BuyerWhitelistCondition
     blacklist:
@@ -366,7 +366,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
 
 - type: listing
   id: UplinkGrenadierRig
@@ -379,7 +379,7 @@
   cost:
     Telecrystal: 60
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -397,7 +397,7 @@
   cost:
     Telecrystal: 60 #you're buying bulk so its a 25% discount, so no additional random discount over it
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -415,7 +415,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkExplosives
+  - UplinkDisruption
 
 - type: listing
   id: UplinkExplodingPen
@@ -429,7 +429,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
 
 - type: listing
   id: UplinkSyndicateBomb
@@ -439,7 +439,7 @@
   cost:
     Telecrystal: 55
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
   restockTime: 1800
   conditions:
   - !type:StoreWhitelistCondition
@@ -455,7 +455,7 @@
   cost:
     Telecrystal: 55
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -473,7 +473,7 @@
   cost:
     Telecrystal: 40
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -491,7 +491,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
 
 - type: listing
   id: UplinkGrenadeIncendiary
@@ -504,7 +504,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkExplosives
+  - UplinkExplosiveGadgets
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -522,7 +522,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkExplosives
+  - UplinkDisruption
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -540,7 +540,7 @@
   cost:
     Telecrystal: 5
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
 
 - type: listing
   id: UplinkPistol9mmMagazineIncendiary
@@ -556,7 +556,7 @@
   - !type:StoreWhitelistCondition
     whitelist:
       tags:
-      - NukeOpsUplink
+      - UplinkAmmunition
 
 - type: listing
   id: UplinkPistol9mmMagazineShrapnel
@@ -567,7 +567,7 @@
   cost:
     Telecrystal: 7
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -584,7 +584,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
 
 - type: listing
   id: UplinkMagazinePistolSubMachineGunIncendiary
@@ -595,7 +595,7 @@
   cost:
     Telecrystal: 14
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -611,7 +611,7 @@
   cost:
     Telecrystal: 12
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -628,7 +628,7 @@
   cost:
     Telecrystal: 5
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
 
 - type: listing
   id: UplinkMagazinePistolCaselessRifleIncendiary
@@ -639,7 +639,7 @@
   cost:
     Telecrystal: 8
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -655,7 +655,7 @@
   cost:
     Telecrystal: 7
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -671,7 +671,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
 
 - type: listing
   id: UplinkMagazineCaselessRifleIncendiary
@@ -682,7 +682,7 @@
   cost:
     Telecrystal: 14
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -698,7 +698,7 @@
   cost:
     Telecrystal: 12
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -715,7 +715,7 @@
   cost:
     Telecrystal: 15
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -731,7 +731,7 @@
   cost:
     Telecrystal: 5
   categories:
-  - UplinkAmmo
+  - UplinkAmmunitionRestock
 
 # for the hristov
 - type: listing
@@ -742,7 +742,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkAmmo
+  - UplinkAmmunitionRestock
 
 - type: listing
   id: UplinkHristovAmmoShrapnel
@@ -752,7 +752,7 @@
   cost:
     Telecrystal: 12
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -770,7 +770,7 @@
   cost:
     Telecrystal: 75
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -792,7 +792,7 @@
   cost:
     Telecrystal: 95
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -814,7 +814,7 @@
   cost:
     Telecrystal: 85
   categories:
-  - UplinkAmmo
+  - UplinkAmmunition
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -839,7 +839,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkChemicals
+  - UplinkStealthGadgets
 
 - type: listing
   id: UplinkHypoDart
@@ -853,7 +853,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkChemicals
+  - UplinkStealthGadgets
 
 - type: listing
   id: UplinkChemistryKitBundle
@@ -867,7 +867,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkChemicals
+  - UplinkMedical
 
 - type: listing
   id: UplinkZombieBundle
@@ -878,7 +878,7 @@
   cost:
     Telecrystal: 200
   categories:
-  - UplinkChemicals
+  - UplinkMedical
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -900,7 +900,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkChemicals
+  - UplinkMedical
 
 - type: listing
   id: UplinkCombatMedkit
@@ -913,7 +913,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkChemicals
+  - UplinkMedical
 
 - type: listing
   id: UplinkCombatMedipen
@@ -926,7 +926,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkChemicals
+  - UplinkMedical
 
 - type: listing
   id: UplinkStimpack
@@ -939,7 +939,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkChemicals
+  - UplinkMedical
 
 - type: listing
   id: UplinkStimkit
@@ -952,7 +952,7 @@
   cost:
     Telecrystal: 60
   categories:
-  - UplinkChemicals
+  - UplinkMedical
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -970,7 +970,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkChemicals
+  - UplinkMedical
 
 - type: listing
   id: UplinkMedsBundle
@@ -983,7 +983,7 @@
   cost:
     Telecrystal: 120
   categories:
-  - UplinkChemicals
+  - UplinkMedical
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -1007,7 +1007,7 @@
   cost:
     Telecrystal: 15
   categories:
-  - UplinkDeception
+  - UplinkStealthGadgets
 
 - type: listing
   id: UplinkStealthBox
@@ -1020,7 +1020,7 @@
   cost:
     Telecrystal: 25
   categories:
-  - UplinkDeception
+  - UplinkStealthGadgets
 
 - type: listing
   id: UplinkChameleonProjector
@@ -1033,7 +1033,7 @@
   cost:
     Telecrystal: 35
   categories:
-  - UplinkDeception
+  - UplinkStealthGadgets
 
 - type: listing
   id: UplinkHeadsetEncryptionKey
@@ -1091,7 +1091,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkDeception
+  - UplinkMiscGadgets
 
 - type: listing
   id: UplinkBribe
@@ -1187,6 +1187,8 @@
     Telecrystal: 10
   cost:
     Telecrystal: 20
+  categories:
+  - UplinkDisruption
 
 - type: listing
   id: UplinkRadioJammer
@@ -1212,7 +1214,7 @@
   cost:
     Telecrystal: 25
   categories:
-  - UplinkDisruption
+  - UplinkAllies
 
 - type: listing
   id: UplinkSyndicateMartyrModule
@@ -1226,7 +1228,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkDisruption
+  - UplinkAllies
 
 - type: listing
   id: UplinkSoapSyndie
@@ -1288,7 +1290,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkDisruption
+  - UplinkMedical
 
 - type: listing
   id: UplinkPowerSink
@@ -1301,7 +1303,7 @@
   cost:
     Telecrystal: 40
   categories:
-  - UplinkDisruption
+  - UplinkExplosiveGadgets
   conditions:
   - !type:BuyerWhitelistCondition
     blacklist:
@@ -1352,7 +1354,7 @@
   cost:
     Telecrystal: 200
   categories:
-  - UplinkDisruption
+  - UplinkKits
   conditions:
   - !type:BuyerWhitelistCondition
     blacklist:
@@ -1380,7 +1382,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkDisruption
+  - UplinkStealthGadgets
 
 # Allies
 
@@ -1849,7 +1851,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkWearables
+  - UplinkDisruption
   conditions:
   - !type:StoreWhitelistCondition
     blacklist:
@@ -2037,7 +2039,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2054,7 +2056,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2071,7 +2073,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2088,7 +2090,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2109,7 +2111,7 @@
   cost:
     Telecrystal: 100
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2126,7 +2128,7 @@
   cost:
     Telecrystal: 45
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2145,7 +2147,7 @@
   cost:
     Telecrystal: 10
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2162,7 +2164,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2180,7 +2182,7 @@
   cost:
     Telecrystal: 60
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2197,7 +2199,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2217,7 +2219,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerDepartmentCondition
     whitelist:
@@ -2234,7 +2236,7 @@
   cost:
     Telecrystal: 25
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2256,7 +2258,7 @@
   cost:
     Telecrystal: 35
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition # We can't use BuyerDepartmentCondition here since Zookeeper and Chef can also get this
     whitelist:
@@ -2278,7 +2280,7 @@
   cost:
     Telecrystal: 25
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2300,7 +2302,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkJob
+  - UplinkRoleRestricted
   conditions:
   - !type:BuyerJobCondition
     whitelist:
@@ -2328,7 +2330,7 @@
   cost:
     Telecrystal: 15
   categories:
-  - UplinkAllies
+  - UplinkDisruption
 
 # Armor
 

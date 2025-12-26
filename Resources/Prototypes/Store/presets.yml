@@ -5,19 +5,29 @@
   - type: Store
     name: store-preset-name-uplink
     categories:
-    - UplinkWeaponry
-    - UplinkAmmo
-    - UplinkExplosives
-    - UplinkWearables
-    - UplinkChemicals
+    - UplinkKits
+    - UplinkRangedWeapons
+    - UplinkMeleeWeapons
+    - UplinkStealthyWeapons
+    - UplinkExplosiveWeapons
+    - UplinkAmmunition
+    - UplinkAmmunitionRestock
+    - UplinkExplosiveGadgets
+    - UplinkStealthGadgets
     - UplinkDeception
     - UplinkDisruption
-    - UplinkImplants
-    - UplinkJob
+    - UplinkMiscGadgets
+    - UplinkMobility
     - UplinkAllies
+    - UplinkWearables
+    - UplinkConsumables
+    - UplinkMedical
+    - UplinkImplants
+    - UplinkCurrencyReliant
+    - UplinkSpeciesRestricted
+    - UplinkRoleRestricted
     - UplinkPointless
-    - UplinkSales
-    - UplinkFaction
+    - UplinkDiscounts
     currencyWhitelist:
     - Telecrystal
     balance:
