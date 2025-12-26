@@ -115,6 +115,11 @@
   priority: 15
 
 - type: storeCategory
+  id: UplinkImplants
+  name: store-category-implants
+  priority: 15
+
+- type: storeCategory
   id: UplinkCurrencyReliant
   name: store-category-vendors
   priority: 16
@@ -135,9 +140,14 @@
   priority: 19
 
 - type: storeCategory
+  id: UplinkPointless
+  name: store-category-pointless
+  priority: 20
+
+- type: storeCategory
   id: UplinkDiscounts
   name: store-discounted-items
-  priority: 20
+  priority: 21
 
 #revenant
 - type: storeCategory
