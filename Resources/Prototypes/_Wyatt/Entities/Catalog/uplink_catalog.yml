@@ -6,7 +6,7 @@
   cost:
     Telecrystal: 15
   categories:
-  - UplinkWeaponry
+  - UplinkExplosiveGadgets
 
 - type: listing
   id: UplinkPolyacidGasGrenade
@@ -16,7 +16,7 @@
   cost:
     Telecrystal: 40
   categories:
-  - UplinkWeaponry
+  - UplinkExplosiveGadgets
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -31,7 +31,7 @@
   cost:
     Telecrystal: 30
   categories:
-  - UplinkWeaponry
+  - UplinkMedical
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
