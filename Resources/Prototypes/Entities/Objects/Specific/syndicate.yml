@@ -118,8 +118,38 @@
 - type: entity
   parent: BaseUplinkRadio
   id: BaseUplinkRadioDebug
+  name: DEBUG UPLINK TRAITOR
+  description: You REALLY shouldn't have this unless you're a jannie or coder!
   suffix: DEBUG
   components:
   - type: Store
     balance:
       Telecrystal: 99999
+
+- type: entity
+  parent: BaseUplinkRadio
+  id: BaseUplinkRadioDebugNukeops
+  name: DEBUG UPLINK NUCLEAR
+  description: You REALLY shouldn't have this unless you're a jannie or coder!
+  suffix: DEBUG, Nukeops
+  components:
+  - type: Store
+    balance:
+      Telecrystal: 99999
+  - type: Tag
+    tags:
+    - NukeOpsUplink
+
+- type: entity
+  parent: BaseUplinkRadio
+  id: BaseUplinkRadioSIT
+  name: special infiltration team uplink
+  description: Advanced redspace teleporter unit for obtainihg mission gear. Dont dilly dally and get ready!
+  suffix: 450 TC, SIT
+  components:
+  - type: Store
+    balance:
+      Telecrystal: 450
+  - type: Tag
+    tags:
+    - NukeOpsUplink
