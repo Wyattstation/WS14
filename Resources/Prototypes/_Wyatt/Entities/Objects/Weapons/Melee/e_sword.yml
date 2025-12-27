@@ -40,13 +40,24 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Slash: 14
-        Heat: 14
-        Structural: 45
+        Slash: 3
+        Heat: 6
+        Structural: 40
   - type: Tool
     qualities:
       - Prying
       - Axing
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 1.25
+    range: 1.6
+    damage:
+      types:
+        Blunt: 2.5
+    clickPartDamageMultiplier: 3
+    heavyPartDamageMultiplier: 2.5
+    heavyDamageBaseModifier: 1.0
+    heavyStaminaCost: 2.5
   - type: ItemToggle
     wieldToggle: false
     soundActivate:
@@ -74,9 +85,9 @@
         variation: 0.125
     activatedDamage:
       types:
-        Slash: 10
-        Heat: 10
-        Structural: 25
+        Slash: 6
+        Heat: 8
+        Structural: 15
   - type: IgniteOnMeleeHit
     fireStacks: 2
   - type: Sprite
