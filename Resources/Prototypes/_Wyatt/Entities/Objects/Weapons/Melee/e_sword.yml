@@ -44,7 +44,7 @@
     doAfterDuration: 2.0
   - type: Sprite
     sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
-    state: icon
+    state: e_faxe
   - type: MeleeWeapon
     wideAnimationRotation: 135
     swingLeft: true
