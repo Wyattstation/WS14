@@ -52,8 +52,8 @@
     spriteLayer: blade
     inhandVisuals:
       left:
-      - state: inhand-left-blade
+      - state: inhand-left
         shader: unshaded
       right:
-      - state: inhand-right-blade
+      - state: inhand-right
         shader: unshaded
