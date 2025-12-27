@@ -33,69 +33,69 @@
 - type: entity
   id: EnergyFireAxe
   name: energy fire axe
-  parent: EnergySword
-  description: Why fight fire with an axe when you can fight with fire and axe? Now featuring rugged rubberized handle!
+  parent: [BaseItem, BaseEngineeringContraband]
+  description: A fireaxe of pure hardlight. Insanely hot even for an energy weapon, this thing will light people on fire!
   components:
+  - type: Tag
+    tags:
+    - FireAxe
+  - type: Sharp
+  - type: Execution
+    doAfterDuration: 2.0
+  - type: Sprite
+    sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: 135
+    swingLeft: true
+    attackRate: 1
+    damage:
+      types:
+        Slash: 5
+        Heat: 7
+        Structural: 20
+    clickPartDamageMultiplier: 3
+    heavyPartDamageMultiplier: 2.5
+    heavyDamageBaseModifier: 1.0
+    heavyStaminaCost: 2
+    angle: 100
+    soundHit:
+      collection: MetalThud
+  - type: DamageOtherOnHit
+    meleeDamageMultiplier: 1.5
+    staminaCost: 10
+  - type: EmbeddableProjectile
+  - type: EmbedPassiveDamage
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
         Slash: 3
         Heat: 6
-        Structural: 40
+        Structural: 50
+  - type: Item
+    size: Ginormous
+  - type: Clothing
+    sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
+    quickEquip: false
+    slots:
+    - back
   - type: Tool
     qualities:
       - Prying
       - Axing
-  - type: MeleeWeapon
-    wideAnimationRotation: -135
-    attackRate: 1.25
-    range: 1.6
-    damage:
-      types:
-        Blunt: 2.5
-    clickPartDamageMultiplier: 3
-    heavyPartDamageMultiplier: 2.5
-    heavyDamageBaseModifier: 1.0
-    heavyStaminaCost: 2.5
-  - type: ItemToggle
-    wieldToggle: false
-    soundActivate:
-      path: /Audio/Weapons/ebladeon.ogg
-    soundDeactivate:
-      path: /Audio/Weapons/ebladeoff.ogg
-  - type: ItemToggleActiveSound
-    activeSound:
-      path: /Audio/Weapons/ebladehum.ogg
   - type: ToolTileCompatible
   - type: Prying
-  - type: ItemToggleMeleeWeapon
-    activatedSoundOnHit:
-      path: /Audio/Weapons/eblade1.ogg
-      params:
-        variation: 0.250
-    activatedSoundOnHitNoDamage:
-      path: /Audio/Weapons/eblade1.ogg
-      params:
-        variation: 0.250
-        volume: -10
-    activatedSoundOnSwing:
-      path: /Audio/Weapons/eblademiss.ogg
-      params:
-        variation: 0.125
-    activatedDamage:
-      types:
-        Slash: 6
-        Heat: 8
-        Structural: 15
+  - type: UseDelay
+    delay: 0.7
+  - type: StealTarget
+    stealGroup: FireAxe
   - type: IgniteOnMeleeHit
     fireStacks: 2
-  - type: Sprite
-    sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
-    layers:
-    - state: e_faxe
-    - state: e_faxe_blade
-      color: "#FFFFFF"
-      visible: false
-      shader: unshaded
-      map: [ "blade" ]
+  - type: Scalpel
+    speed: 0.3
+  - type: BoneSaw
+    speed: 0.5
+  - type: SurgeryTool
+    startSound:
+      path: /Audio/Medical/Surgery/saw.ogg
