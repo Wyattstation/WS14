@@ -33,27 +33,17 @@
 - type: entity
   id: EnergyFireAxe
   name: energy fire axe
-  parent: EnergySwordDouble
+  parent: EnergySword
   description: Why fight fire with an axe when you can fight with fire and axe? Now featuring rugged rubberized handle!
   components:
   - type: Sprite
     sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
     layers:
-      - state: e_faxe
-      - state: e_faxe_blade
-        color: "#FFFFFF"
-        visible: false
-        shader: unshaded
-        map: [ "blade" ]
+    - state: e_sword
+    - state: e_sword_blade
+      color: "#FFFFFF"
+      visible: false
+      shader: unshaded
+      map: [ "blade" ]
   - type: Item
-    size: Small
     sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
-  - type: ToggleableLightVisuals
-    spriteLayer: blade
-    inhandVisuals:
-      left:
-      - state: inhand-left
-        shader: unshaded
-      right:
-      - state: inhand-right
-        shader: unshaded
