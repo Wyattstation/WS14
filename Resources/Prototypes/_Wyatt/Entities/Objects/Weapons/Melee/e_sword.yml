@@ -39,10 +39,21 @@
   - type: Sprite
     sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
     layers:
-    - state: e_faxe
-    - state: e_faxe_blade
-      color: "#FFFFFF"
-      visible: false
-      shader: unshaded
+      - state: e_faxe
+      - state: e_faxe_blade
+        color: "#FFFFFF"
+        visible: false
+        shader: unshaded
+        map: [ "blade" ]
   - type: Item
+    size: Small
     sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
+  - type: ToggleableLightVisuals
+    spriteLayer: blade
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        shader: unshaded
+      right:
+      - state: inhand-right
+        shader: unshaded
