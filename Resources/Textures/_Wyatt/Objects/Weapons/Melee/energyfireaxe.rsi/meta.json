@@ -14,23 +14,10 @@
       "name": "e_faxe"
     },
     {
-      "name": "inhand-left-blade"
-    },
-    {
       "name": "inhand-left"
     },
     {
-      "name": "inhand-right-blade"
-    },
-    {
       "name": "inhand-right"
-    },
-	{
-      "name": "e_faxe_blade",
-      "delays": [
-        [
-          0.1,
-          0.1
         ]
       ]
     }
