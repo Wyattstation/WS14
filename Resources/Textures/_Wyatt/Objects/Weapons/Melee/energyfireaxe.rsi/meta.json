@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "license": "CC0-1.0",
+  "copyright": "Original work by TJohnson. | modified by BlueHNT | made into energyaxe by Liz",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "e_faxe"
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    },
+	{
+      "name": "e_faxe_blade",
+      "delays": [
+        [
+          0.1,
+          0.1
+        ]
+      ]
+    }
+  ]
+}
