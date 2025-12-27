@@ -39,8 +39,8 @@
   - type: Sprite
     sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
     layers:
-    - state: e_sword
-    - state: e_sword_blade
+    - state: e_faxe
+    - state: e_faxe_blade
       color: "#FFFFFF"
       visible: false
       shader: unshaded
