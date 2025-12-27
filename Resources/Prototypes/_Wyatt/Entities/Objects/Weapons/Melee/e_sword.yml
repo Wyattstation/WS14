@@ -100,4 +100,4 @@
       shader: unshaded
       map: [ "blade" ]
   - type: Item
-    sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe-inhands.rsi
+    sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
