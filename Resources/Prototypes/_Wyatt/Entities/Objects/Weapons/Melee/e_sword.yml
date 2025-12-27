@@ -99,5 +99,3 @@
       visible: false
       shader: unshaded
       map: [ "blade" ]
-  - type: Item
-    sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
