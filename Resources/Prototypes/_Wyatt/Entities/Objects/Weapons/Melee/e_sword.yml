@@ -36,47 +36,13 @@
   parent: FireAxe
   description: Why fight fire with an axe when you can fight with fire and axe? Now featuring rugged rubberized handle!
   components:
-  - type: ItemToggle
-    onUse: false # wielding events control it instead
-    onActivate: false # prevents the weapon from being able to be turned on when it is on the ground
-    soundActivate:
-      path: /Audio/Weapons/ebladeon.ogg
-      params:
-        volume: 3
-    soundDeactivate:
-      path: /Audio/Weapons/ebladeoff.ogg
-      params:
-        volume: 3
-  - type: IgniteOnMeleeHit
-    fireStacks: 3
-  - type: ItemToggleMeleeWeapon
-    activatedSoundOnSwing:
-      path: /Audio/Weapons/eblademiss.ogg
-      params:
-        volume: 3
-        variation: 0.250
-    activatedDamage:
-        types:
-            Slash: 12
-            Heat: 15
-            Structural: 30
-  - type: ItemToggleActiveSound
-    activeSound:
-      path: /Audio/Weapons/ebladehum.ogg
-      params:
-        volume: 3
   - type: Sprite
     sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
     layers:
-      - state: e_faxe
-      - state: e_faxe_blade
-        color: "#800080"
-        visible: false
-        shader: unshaded
-        map: [ "blade" ]
-  - type: Clothing
+    - state: e_faxe
+    - state: e_faxe_blade
+      color: "#FFFFFF"
+      visible: false
+      shader: unshaded
+  - type: Item
     sprite: _Wyatt/Objects/Weapons/Melee/energyfireaxe.rsi
-    state: icon
-    quickEquip: false
-    slots:
-    - back
