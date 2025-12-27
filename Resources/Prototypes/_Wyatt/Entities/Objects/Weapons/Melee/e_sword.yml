@@ -33,7 +33,7 @@
 - type: entity
   id: EnergyFireAxe
   name: energy fire axe
-  parent: FireAxe
+  parent: EnergySwordDouble
   description: Why fight fire with an axe when you can fight with fire and axe? Now featuring rugged rubberized handle!
   components:
   - type: Sprite
