@@ -11,10 +11,10 @@
       "name": "icon"
     },
     {
-      "name": "e_sword"
+      "name": "e_faxe"
     },
 	{
-      "name": "e_sword_blade",
+      "name": "e_faxe_blade",
       "delays": [
         [
           0.1,
